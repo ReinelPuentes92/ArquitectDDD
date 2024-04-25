@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iktan.Ecommerce.Domain.Entity\Iktan.Ecommerce.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Domain.Interface\Iktan.Ecommerce.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Infraestructure.Interface\Iktan.Ecommerce.Infraestructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

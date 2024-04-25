@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Transversal.Common", "Iktan.Ecommerce.Transversal.Common\Iktan.Ecommerce.Transversal.Common.csproj", "{5E699C18-272A-46DA-BDFC-27BA7B1C6A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{7DA33F1F-00B6-4E99-A3EF-C34A06D7B6F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3E92CDF9-F021-4723-921F-E128840B6F28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{E5938D65-5762-423B-8A51-2AE6931B90F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{24EC2277-0C32-468C-A1FA-51081FF9F711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D54B5CD6-71B6-472B-B875-CF6112441752}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Infraestructure.Data", "Iktan.Ecommerce.Infraestructure.Data\Iktan.Ecommerce.Infraestructure.Data.csproj", "{C1293766-6D00-4DEA-B066-A16A1479CB57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Infraestructure.Interface", "Iktan.Ecommerce.Infraestructure.Interface\Iktan.Ecommerce.Infraestructure.Interface.csproj", "{D16FB502-D615-4871-A9CB-02BF59D9463F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Domain.Entity", "Iktan.Ecommerce.Domain.Entity\Iktan.Ecommerce.Domain.Entity.csproj", "{B247B345-6821-4F3E-8A69-E507D441A176}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Infraestructure.Repository", "Iktan.Ecommerce.Infraestructure.Repository\Iktan.Ecommerce.Infraestructure.Repository.csproj", "{C1FAE716-1D82-4625-AE3D-625E9429411B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.Domain.Interface", "Iktan.Ecommerce.Domain.Interface\Iktan.Ecommerce.Domain.Interface.csproj", "{167DEAAD-1C59-456F-8832-819ADA6495F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.Domain.Core", "Iktan.Ecommerce.Domain.Core\Iktan.Ecommerce.Domain.Core.csproj", "{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E699C18-272A-46DA-BDFC-27BA7B1C6A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E699C18-272A-46DA-BDFC-27BA7B1C6A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E699C18-272A-46DA-BDFC-27BA7B1C6A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E699C18-272A-46DA-BDFC-27BA7B1C6A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1293766-6D00-4DEA-B066-A16A1479CB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1293766-6D00-4DEA-B066-A16A1479CB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1293766-6D00-4DEA-B066-A16A1479CB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1293766-6D00-4DEA-B066-A16A1479CB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16FB502-D615-4871-A9CB-02BF59D9463F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16FB502-D615-4871-A9CB-02BF59D9463F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16FB502-D615-4871-A9CB-02BF59D9463F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16FB502-D615-4871-A9CB-02BF59D9463F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B247B345-6821-4F3E-8A69-E507D441A176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B247B345-6821-4F3E-8A69-E507D441A176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B247B345-6821-4F3E-8A69-E507D441A176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B247B345-6821-4F3E-8A69-E507D441A176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FAE716-1D82-4625-AE3D-625E9429411B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FAE716-1D82-4625-AE3D-625E9429411B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FAE716-1D82-4625-AE3D-625E9429411B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FAE716-1D82-4625-AE3D-625E9429411B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167DEAAD-1C59-456F-8832-819ADA6495F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167DEAAD-1C59-456F-8832-819ADA6495F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167DEAAD-1C59-456F-8832-819ADA6495F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167DEAAD-1C59-456F-8832-819ADA6495F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E699C18-272A-46DA-BDFC-27BA7B1C6A55} = {7DA33F1F-00B6-4E99-A3EF-C34A06D7B6F6}
+		{C1293766-6D00-4DEA-B066-A16A1479CB57} = {24EC2277-0C32-468C-A1FA-51081FF9F711}
+		{D16FB502-D615-4871-A9CB-02BF59D9463F} = {24EC2277-0C32-468C-A1FA-51081FF9F711}
+		{B247B345-6821-4F3E-8A69-E507D441A176} = {3E92CDF9-F021-4723-921F-E128840B6F28}
+		{C1FAE716-1D82-4625-AE3D-625E9429411B} = {24EC2277-0C32-468C-A1FA-51081FF9F711}
+		{167DEAAD-1C59-456F-8832-819ADA6495F3} = {3E92CDF9-F021-4723-921F-E128840B6F28}
+		{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0} = {3E92CDF9-F021-4723-921F-E128840B6F28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A641BDB6-CFC0-41C4-89DB-26FDF2035E5B}
+	EndGlobalSection
+EndGlobal
