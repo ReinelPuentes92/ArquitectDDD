@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}|Iktan.Ecommerce.Domain.Core\\Iktan.Ecommerce.Domain.Core.csproj|e:\\personal\\cursos\\2024\\c#\\iktan.eccomerce\\iktan.ecommerce\\iktan.ecommerce.domain.core\\customerdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}|Iktan.Ecommerce.Domain.Core\\Iktan.Ecommerce.Domain.Core.csproj|solutionrelative:iktan.ecommerce.domain.core\\customerdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0CD93C2-6E4F-410C-A55F-7846E6B0A291}|Iktan.Ecommerce.Service.WebAPI\\Iktan.Ecommerce.Service.WebAPI.csproj|e:\\personal\\cursos\\2024\\c#\\iktan.eccomerce\\iktan.ecommerce\\iktan.ecommerce.service.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CD93C2-6E4F-410C-A55F-7846E6B0A291}|Iktan.Ecommerce.Service.WebAPI\\Iktan.Ecommerce.Service.WebAPI.csproj|solutionrelative:iktan.ecommerce.service.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -23,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerDomain.cs",
-              "DocumentMoniker": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\CustomerDomain.cs",
-              "RelativeDocumentMoniker": "Iktan.Ecommerce.Domain.Core\\CustomerDomain.cs",
-              "ToolTip": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\CustomerDomain.cs",
-              "RelativeToolTip": "Iktan.Ecommerce.Domain.Core\\CustomerDomain.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwD8AAAA3AAAA",
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Service.WebAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Iktan.Ecommerce.Service.WebAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Service.WebAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Iktan.Ecommerce.Service.WebAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAzwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T17:58:12.129Z",
+              "WhenOpened": "2024-05-09T20:26:11.421Z",
               "EditorCaption": ""
             }
           ]

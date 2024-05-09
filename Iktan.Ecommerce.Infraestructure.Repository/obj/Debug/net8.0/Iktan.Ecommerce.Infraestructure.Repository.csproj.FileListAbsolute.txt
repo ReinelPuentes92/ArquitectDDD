@@ -19,3 +19,4 @@ E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infra
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Repository\obj\Debug\net8.0\refint\Iktan.Ecommerce.Infraestructure.Repository.dll
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Repository\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Repository.pdb
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Repository\obj\Debug\net8.0\ref\Iktan.Ecommerce.Infraestructure.Repository.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Repository\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Repository.sourcelink.json
