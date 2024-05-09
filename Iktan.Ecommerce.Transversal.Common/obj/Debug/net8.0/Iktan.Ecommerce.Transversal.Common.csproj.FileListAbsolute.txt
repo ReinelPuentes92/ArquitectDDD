@@ -9,3 +9,4 @@ E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Trans
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Common\obj\Debug\net8.0\refint\Iktan.Ecommerce.Transversal.Common.dll
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Common\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Common.pdb
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Common\obj\Debug\net8.0\ref\Iktan.Ecommerce.Transversal.Common.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Common\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Common.sourcelink.json

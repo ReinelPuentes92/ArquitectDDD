@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7deGhO1B9TMZPT9OI6bMzwK6ncLYz1VU9x8Z5C3EMd8=",
+  "Source": "Iktan.Ecommerce.Service.WebAPI",
+  "BasePath": "_content/Iktan.Ecommerce.Service.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
