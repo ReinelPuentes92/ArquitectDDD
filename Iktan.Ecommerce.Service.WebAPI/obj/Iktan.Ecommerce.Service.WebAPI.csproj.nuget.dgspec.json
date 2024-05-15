@@ -143,6 +143,541 @@
         }
       }
     },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main\\Iktan.Ecommerce.App.Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main\\Iktan.Ecommerce.App.Main.csproj",
+        "projectName": "Iktan.Ecommerce.App.Main",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main\\Iktan.Ecommerce.App.Main.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.DTO\\Iktan.Ecommerce.App.DTO.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.DTO\\Iktan.Ecommerce.App.DTO.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Interface\\Iktan.Ecommerce.App.Interface.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Interface\\Iktan.Ecommerce.App.Interface.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\Iktan.Ecommerce.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\Iktan.Ecommerce.Domain.Core.csproj",
+        "projectName": "Iktan.Ecommerce.Domain.Core",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\Iktan.Ecommerce.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj",
+        "projectName": "Iktan.Ecommerce.Domain.Entity",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj",
+        "projectName": "Iktan.Ecommerce.Domain.Interface",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj",
+        "projectName": "Iktan.Ecommerce.Infraestructure.Data",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj",
+        "projectName": "Iktan.Ecommerce.Infraestructure.Interface",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Repository\\Iktan.Ecommerce.Infraestructure.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Repository\\Iktan.Ecommerce.Infraestructure.Repository.csproj",
+        "projectName": "Iktan.Ecommerce.Infraestructure.Repository",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Repository\\Iktan.Ecommerce.Infraestructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Service.WebAPI\\Iktan.Ecommerce.Service.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -178,6 +713,30 @@
               },
               "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Interface\\Iktan.Ecommerce.App.Interface.csproj": {
                 "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Interface\\Iktan.Ecommerce.App.Interface.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main\\Iktan.Ecommerce.App.Main.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main\\Iktan.Ecommerce.App.Main.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\Iktan.Ecommerce.Domain.Core.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core\\Iktan.Ecommerce.Domain.Core.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface\\Iktan.Ecommerce.Domain.Interface.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface\\Iktan.Ecommerce.Infraestructure.Interface.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Repository\\Iktan.Ecommerce.Infraestructure.Repository.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Repository\\Iktan.Ecommerce.Infraestructure.Repository.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common\\Iktan.Ecommerce.Transversal.Common.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Mapper\\Iktan.Ecommerce.Transversal.Mapper.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Mapper\\Iktan.Ecommerce.Transversal.Mapper.csproj"
               }
             }
           }
@@ -197,13 +756,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
               "version": "[5.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.1, )"
             }
           },
           "imports": [
@@ -275,6 +838,85 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Mapper\\Iktan.Ecommerce.Transversal.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Mapper\\Iktan.Ecommerce.Transversal.Mapper.csproj",
+        "projectName": "Iktan.Ecommerce.Transversal.Mapper",
+        "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Mapper\\Iktan.Ecommerce.Transversal.Mapper.csproj",
+        "packagesPath": "C:\\Users\\Reinel Puentes\\.nuget\\packages\\",
+        "outputPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reinel Puentes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.DTO\\Iktan.Ecommerce.App.DTO.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.DTO\\Iktan.Ecommerce.App.DTO.csproj"
+              },
+              "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity\\Iktan.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

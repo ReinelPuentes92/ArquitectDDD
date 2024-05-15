@@ -7,13 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Iktan.Ecommerce.App.DTO\Iktan.Ecommerce.App.DTO.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.App.Interface\Iktan.Ecommerce.App.Interface.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.App.Main\Iktan.Ecommerce.App.Main.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Domain.Core\Iktan.Ecommerce.Domain.Core.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Domain.Interface\Iktan.Ecommerce.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Infraestructure.Data\Iktan.Ecommerce.Infraestructure.Data.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Infraestructure.Interface\Iktan.Ecommerce.Infraestructure.Interface.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Infraestructure.Repository\Iktan.Ecommerce.Infraestructure.Repository.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Transversal.Common\Iktan.Ecommerce.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Transversal.Mapper\Iktan.Ecommerce.Transversal.Mapper.csproj" />
   </ItemGroup>
 
 </Project>
