@@ -1,6 +1,4 @@
 ﻿using AutoMapper;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 
 using Iktan.Ecommerce.App.DTO;
 using Iktan.Ecommerce.App.Interface;

@@ -1,10 +1,13 @@
 ﻿using Iktan.Ecommerce.App.DTO;
 using Iktan.Ecommerce.App.Interface;
+
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Iktan.Ecommerce.Service.WebAPI.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]/[action]")]    
     public class CustomerController : ControllerBase

@@ -9,6 +9,7 @@ namespace Iktan.Ecommerce.Transversal.Mapper
         public MappingsProfile()
         {
             CreateMap<Customers, CustomerDTO>().ReverseMap();
+            CreateMap<Users, UserDTO>().ReverseMap();
 
             /* CreateMap<Customers, CustomerDTO>().ReverseMap()
                 .ForMember(destination => destination.CustomerId, source => source.MapFrom(src => src.CustomerId))
