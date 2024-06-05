@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Iktan.Ecommerce.Domain.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9679fab1e2fe100a8020ae04d40cbea33d48511f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b5f92885c8ca5781b51677bc0abad6eca9083a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Iktan.Ecommerce.Domain.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Iktan.Ecommerce.Domain.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

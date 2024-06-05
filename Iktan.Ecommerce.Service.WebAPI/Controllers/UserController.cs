@@ -40,7 +40,8 @@ namespace Iktan.Ecommerce.Service.WebAPI.Controllers
             {
                 if(response.Data != null)
                 {
-                    response.Data.Token = BuildToken(response);
+                    //response.Data.Token = BuildToken(response);
+                    response.Data.Token = GenerateJWTToken(response);
                     return Ok(response);
                 } else
                 {
@@ -51,26 +52,26 @@ namespace Iktan.Ecommerce.Service.WebAPI.Controllers
             return BadRequest(response.Message);
         }
 
-        private string BuildToken(Response<UserDTO> userDto)
+        
+        private string GenerateJWTToken(Response<UserDTO> userDTO)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
-            
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new System.Security.Claims.ClaimsIdentity(new Claim[]
+                Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, userDto.Data.UserId.ToString())
+                    new Claim(ClaimTypes.NameIdentifier, userDTO.Data.UserId.ToString()),
+                    new Claim(ClaimTypes.Name, userDTO.Data.UserName)
                 }),
-                Expires = DateTime.UtcNow.AddMinutes(1),
+                Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
                 Issuer = _appSettings.Issuer,
                 Audience = _appSettings.Audience
             };
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
-            var tokenString = tokenHandler.WriteToken(token);
-            return tokenString;
+            return tokenHandler.WriteToken(token);
         }
     }
 }

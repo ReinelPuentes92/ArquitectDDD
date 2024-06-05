@@ -10,16 +10,7 @@ using Iktan.Ecommerce.Transversal.Common;
 namespace Iktan.Ecommerce.App.Interface
 {
     public interface ICustomerApplication
-    {
-        #region Metodos Sincornos
-
-        Response<bool> Insert(CustomerDTO customerDTO);
-        Response<bool> Update(CustomerDTO customerDTO);
-        Response<bool> Delete(string CustomerId);
-        Response<CustomerDTO> Get(string CustomerId);
-        Response<IEnumerable<CustomerDTO>> GetAll();
-
-        #endregion
+    {        
 
         #region Metodos Asincronos
 

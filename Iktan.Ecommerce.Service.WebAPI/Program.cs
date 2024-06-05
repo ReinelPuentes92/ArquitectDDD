@@ -29,14 +29,62 @@ builder.Services.AddCors(options => options.AddPolicy(policyEcommerce, builder =
 var configs = builder.Configuration.GetSection("Configs");
 builder.Services.Configure<AppSettings>(configs);
 
-//Jwt Authenticate Endpoints
-var appSettings = configs.Get<AppSettings>();
-
 // Add services to the container.
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new() { Title = "Ecommerce Iktan", Version = "v1" });
+
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "Authorization Bearer Sheme",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                },
+                Scheme = "oauth2",
+                Name = "Bearer",
+                In = ParameterLocation.Header,
+            },
+            new List<string>()
+        }
+    });
+});
+
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Configs:Issuer"],
+            ValidAudience = builder.Configuration["Configs:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Configs:Secret"])),
+            ClockSkew = TimeSpan.Zero
+        };
+    });
+
+//Enable to Authorize Controllers
+builder.Services.AddAuthorization();
 
 // Automapping
 builder.Services.AddAutoMapper(typeof(MappingsProfile));
@@ -54,103 +102,6 @@ builder.Services.AddScoped<IUserApplication, UserApplication>();
 builder.Services.AddScoped<IUserDomain, UserDomain>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-//Authenticate Endpoints
-var key = Encoding.ASCII.GetBytes(appSettings.Secret);
-var issuer = appSettings.Issuer;
-var audience = appSettings.Audience;
-
-builder.Services.AddAuthentication(x =>
-{
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-
-})
-    .AddJwtBearer(x =>
-    {
-        x.Events = new JwtBearerEvents
-        {
-            OnTokenValidated = context =>
-            {
-                var userId = int.Parse(context.Principal.Identity.Name);
-                return Task.CompletedTask;
-            },
-
-            OnAuthenticationFailed = context =>
-            {
-                if (context.Exception.GetType() == typeof(SecurityTokenExpiredException))
-                {
-                    context.Response.Headers.Add("Token-Expired", "true");
-                }
-                return Task.CompletedTask;
-            },
-        };
-        x.RequireHttpsMetadata = true;
-        x.SaveToken = false;
-        x.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(key),
-            ValidateIssuer = true,
-            ValidIssuer = issuer,
-            ValidateAudience = true,
-            ValidAudience = audience,
-            ValidateLifetime = true,
-            ClockSkew = TimeSpan.Zero
-        };
-    });
-
-//Documentation Swagger
-builder.Services.AddSwaggerGen(s =>
-{
-    s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-    {
-        Version = "v1",
-        Title = "Iktan Services S.A.S",
-        Description = "A Eccomerce Services",
-        //TermsOfService = "None",
-        Contact = new Microsoft.OpenApi.Models.OpenApiContact
-        {
-            Name = "Reinel Puentes",
-            Email = "reinel.puentes@iktanservices.com",
-        },
-        License = new Microsoft.OpenApi.Models.OpenApiLicense
-        {
-            Name = "Use under LICX",
-            //Url = "https://example.com/license",
-        }
-
-    });
-
-    //var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    //var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    //s.IncludeXmlComments(xmlPath);
-
-    s.AddSecurityDefinition("Authorization", new OpenApiSecurityScheme
-    {
-        Description = "Authorization by API Key",
-        In = ParameterLocation.Header,
-        Name = "Authorization",
-        Type = SecuritySchemeType.Http,
-        BearerFormat = "JWT",
-        Scheme = "Bearer"        
-    });
-
-    s.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[] {}
-        }
-    });
-});
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -161,12 +112,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-    
+app.UseRouting();
 app.UseAuthorization();
-
 app.UseCors(policyEcommerce);
-app.UseAuthentication();
-
 app.MapControllers();
-
 app.Run();

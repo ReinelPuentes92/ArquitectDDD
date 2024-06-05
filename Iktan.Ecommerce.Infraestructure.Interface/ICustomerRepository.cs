@@ -10,17 +10,7 @@ namespace Iktan.Ecommerce.Infraestructure.Interface
 {
     public interface ICustomerRepository
     {
-        #region Metodos Sincronos
         
-        bool Insert(Customers customers);
-        bool Update(Customers customers);
-        bool Delete(string customerId);
-
-        Customers Get(string customerId);
-        IEnumerable<Customers> GetAll();
-
-        #endregion
-
         #region Metodos Asincronos
 
         Task<bool> InsertAsync(Customers customers);

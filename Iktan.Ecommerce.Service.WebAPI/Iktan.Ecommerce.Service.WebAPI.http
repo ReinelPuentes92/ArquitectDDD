@@ -1,6 +1,0 @@
-@Iktan.Ecommerce.Service.WebAPI_HostAddress = http://localhost:5058
-
-GET {{Iktan.Ecommerce.Service.WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
