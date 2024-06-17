@@ -70,3 +70,5 @@ app.UseAuthorization();
 app.UseCors(policyEcommerce);
 app.MapControllers();
 app.Run();
+
+public partial class Program { };

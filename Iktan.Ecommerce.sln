@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Service.Web
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Transversal.Logging", "Iktan.Ecommerce.Transversal.Logging\Iktan.Ecommerce.Transversal.Logging.csproj", "{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.App.Validation", "Iktan.Ecommerce.App.Validation\Iktan.Ecommerce.App.Validation.csproj", "{FDA49C69-797C-4E93-A242-0794807367FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.App.Validation", "Iktan.Ecommerce.App.Validation\Iktan.Ecommerce.App.Validation.csproj", "{FDA49C69-797C-4E93-A242-0794807367FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1FBCD4D2-0BFB-41DB-A9B1-E3FC319738BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.App.Test", "Iktan.Ecommerce.App.Test\Iktan.Ecommerce.App.Test.csproj", "{46EDF16E-93E2-4D94-8857-48CBA02757FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +107,10 @@ Global
 		{FDA49C69-797C-4E93-A242-0794807367FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA49C69-797C-4E93-A242-0794807367FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDA49C69-797C-4E93-A242-0794807367FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EDF16E-93E2-4D94-8857-48CBA02757FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EDF16E-93E2-4D94-8857-48CBA02757FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EDF16E-93E2-4D94-8857-48CBA02757FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EDF16E-93E2-4D94-8857-48CBA02757FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +130,7 @@ Global
 		{B0CD93C2-6E4F-410C-A55F-7846E6B0A291} = {D54B5CD6-71B6-472B-B875-CF6112441752}
 		{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4} = {7DA33F1F-00B6-4E99-A3EF-C34A06D7B6F6}
 		{FDA49C69-797C-4E93-A242-0794807367FE} = {E5938D65-5762-423B-8A51-2AE6931B90F3}
+		{46EDF16E-93E2-4D94-8857-48CBA02757FC} = {1FBCD4D2-0BFB-41DB-A9B1-E3FC319738BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A641BDB6-CFC0-41C4-89DB-26FDF2035E5B}

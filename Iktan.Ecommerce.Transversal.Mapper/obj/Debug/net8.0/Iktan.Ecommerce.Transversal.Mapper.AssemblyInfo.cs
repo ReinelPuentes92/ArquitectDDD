@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Iktan.Ecommerce.Transversal.Mapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37b8c8953a92ddda7dddf4071c5c32ecb94d06b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29806b713e8507cdaedaac07d2b07a584bdc2c0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Iktan.Ecommerce.Transversal.Mapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Iktan.Ecommerce.Transversal.Mapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

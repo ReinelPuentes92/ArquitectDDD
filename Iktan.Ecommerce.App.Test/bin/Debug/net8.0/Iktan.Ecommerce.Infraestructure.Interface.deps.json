@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Iktan.Ecommerce.Infraestructure.Interface/1.0.0": {
+        "dependencies": {
+          "Iktan.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Iktan.Ecommerce.Infraestructure.Interface.dll": {}
+        }
+      },
+      "Iktan.Ecommerce.Domain.Entity/1.0.0": {
+        "runtime": {
+          "Iktan.Ecommerce.Domain.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Iktan.Ecommerce.Infraestructure.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Iktan.Ecommerce.Domain.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
