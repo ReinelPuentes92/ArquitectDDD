@@ -8,80 +8,40 @@ using Iktan.Ecommerce.Domain.Interface;
 using Iktan.Ecommerce.App.Interface;
 using Iktan.Ecommerce.App.Main;
 using Iktan.Ecommerce.Service.WebAPI.Helpers;
+using Iktan.Ecommerce.Service.WebAPI.Modules.Injection;
+using Iktan.Ecommerce.Service.WebAPI.Modules.Authentication;
+using Iktan.Ecommerce.Service.WebAPI.Modules.Swagger;
+using Iktan.Ecommerce.Service.WebAPI.Modules.Feature;
+using Iktan.Ecommerce.Service.WebAPI.Modules.Validator;
+using Iktan.Ecommerce.Transversal.Logging;
+
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
 using Microsoft.OpenApi.Models;
-
-var policyEcommerce = "_policyRouteEcommerce";
+using Microsoft.Extensions.DependencyInjection;
+using System.Runtime.CompilerServices;
 
 //Key Configuration
 var builder = WebApplication.CreateBuilder(args);
-var configCORS = builder.Configuration.GetValue<string>("Configs:OriginCors");
 
-//CORS
-builder.Services.AddCors(options => options.AddPolicy(policyEcommerce, builder => builder.WithOrigins(configCORS)
-                                                                                         .AllowAnyHeader()
-                                                                                         .AllowAnyMethod()));
-
-//Get Values AppSettings
+//Get Values and set AppSettings
 var configs = builder.Configuration.GetSection("Configs");
 builder.Services.Configure<AppSettings>(configs);
+
+//CORS Extensions
+var policyEcommerce = "_policyRouteEcommerce";
+builder.Services.AddFeature(builder.Configuration, policyEcommerce);
 
 // Add services to the container.
 builder.Services.AddControllers();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new() { Title = "Ecommerce Iktan", Version = "v1" });
+//Extension Validatiors
+builder.Services.AddValidator();
 
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Description = "Authorization Bearer Sheme",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer"
-    });
-
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement()
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                },
-                Scheme = "oauth2",
-                Name = "Bearer",
-                In = ParameterLocation.Header,
-            },
-            new List<string>()
-        }
-    });
-});
-
-
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Configs:Issuer"],
-            ValidAudience = builder.Configuration["Configs:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Configs:Secret"])),
-            ClockSkew = TimeSpan.Zero
-        };
-    });
+//Extensions AddAuthentication
+builder.Services.AddAuthentication(builder.Configuration);
 
 //Enable to Authorize Controllers
 builder.Services.AddAuthorization();
@@ -89,18 +49,11 @@ builder.Services.AddAuthorization();
 // Automapping
 builder.Services.AddAutoMapper(typeof(MappingsProfile));
 
-//dependency injection
-//AddSingleton => Se instancia una sola vez y se reutiliza en los demas llamados
-//builder.Services.AddSingleton<IConfiguration>(Configuration);
-builder.Services.AddSingleton<IConnectionFactory, ConnectionFactory>();
+//Extensions Dependency Injection
+builder.Services.AddInjection(builder.Configuration);
 
-//AddScoped => Se instancia una sola vez por solicitud
-builder.Services.AddScoped<ICustomerApplication, CustomerApplication>();
-builder.Services.AddScoped<ICustomerDomain, CustomerDomain>();
-builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
-builder.Services.AddScoped<IUserApplication, UserApplication>();
-builder.Services.AddScoped<IUserDomain, UserDomain>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+//Swagger Extensions
+builder.Services.AddSwagger();
 
 var app = builder.Build();
 

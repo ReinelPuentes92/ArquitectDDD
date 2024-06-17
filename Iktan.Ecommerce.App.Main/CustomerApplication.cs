@@ -12,12 +12,14 @@ namespace Iktan.Ecommerce.App.Main
     {
         private readonly ICustomerDomain _domain;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<CustomerApplication> _logger;
 
-        public CustomerApplication(ICustomerDomain domain, IMapper mapper)
+        public CustomerApplication(ICustomerDomain domain, IMapper mapper, IAppLogger<CustomerApplication> logger)
         {
             _domain = domain;
             _mapper = mapper;
-        }        
+            _logger = logger;
+        }
 
         #region Metodos Asincronos
 
@@ -105,13 +107,14 @@ namespace Iktan.Ecommerce.App.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Satisfactoria !!!";
-
+                    _logger.LogInformation("Consulta Satisfactoria !!!");
                 }
             }
             catch (Exception ex)
             {
                 response.IsSuccess = false;
                 response.Message = ex.Message;
+                _logger.LogError(ex.Message);
             }
 
             return response;
@@ -129,12 +132,14 @@ namespace Iktan.Ecommerce.App.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Datos Cargados !!!";
+                    _logger.LogInformation("Datos Cargados !!!");
                 }
             }
             catch (Exception ex)
             {
                 response.IsSuccess = false;
                 response.Message = ex.Message;
+                _logger.LogError(ex.Message);
             }
 
             return response;

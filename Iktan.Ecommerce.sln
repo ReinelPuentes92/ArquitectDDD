@@ -27,15 +27,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Domain.Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Domain.Core", "Iktan.Ecommerce.Domain.Core\Iktan.Ecommerce.Domain.Core.csproj", "{9FDB193F-EE64-4FAF-BB7C-ABDE3C125FA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.App.DTO", "Iktan.Ecommerce.App.DTO\Iktan.Ecommerce.App.DTO.csproj", "{19F84952-AD5E-4804-83D6-F638457042C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.App.DTO", "Iktan.Ecommerce.App.DTO\Iktan.Ecommerce.App.DTO.csproj", "{19F84952-AD5E-4804-83D6-F638457042C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.Transversal.Mapper", "Iktan.Ecommerce.Transversal.Mapper\Iktan.Ecommerce.Transversal.Mapper.csproj", "{49BF8C5B-07A4-4DB9-A846-3BCF889549E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Transversal.Mapper", "Iktan.Ecommerce.Transversal.Mapper\Iktan.Ecommerce.Transversal.Mapper.csproj", "{49BF8C5B-07A4-4DB9-A846-3BCF889549E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.App.Interface", "Iktan.Ecommerce.App.Interface\Iktan.Ecommerce.App.Interface.csproj", "{5978C147-92ED-4F02-B208-AED1F3E79149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.App.Interface", "Iktan.Ecommerce.App.Interface\Iktan.Ecommerce.App.Interface.csproj", "{5978C147-92ED-4F02-B208-AED1F3E79149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.App.Main", "Iktan.Ecommerce.App.Main\Iktan.Ecommerce.App.Main.csproj", "{E63D6167-B519-4C1A-8482-EB13568B6080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.App.Main", "Iktan.Ecommerce.App.Main\Iktan.Ecommerce.App.Main.csproj", "{E63D6167-B519-4C1A-8482-EB13568B6080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.Service.WebAPI", "Iktan.Ecommerce.Service.WebAPI\Iktan.Ecommerce.Service.WebAPI.csproj", "{B0CD93C2-6E4F-410C-A55F-7846E6B0A291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Service.WebAPI", "Iktan.Ecommerce.Service.WebAPI\Iktan.Ecommerce.Service.WebAPI.csproj", "{B0CD93C2-6E4F-410C-A55F-7846E6B0A291}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iktan.Ecommerce.Transversal.Logging", "Iktan.Ecommerce.Transversal.Logging\Iktan.Ecommerce.Transversal.Logging.csproj", "{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iktan.Ecommerce.App.Validation", "Iktan.Ecommerce.App.Validation\Iktan.Ecommerce.App.Validation.csproj", "{FDA49C69-797C-4E93-A242-0794807367FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,14 @@ Global
 		{B0CD93C2-6E4F-410C-A55F-7846E6B0A291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0CD93C2-6E4F-410C-A55F-7846E6B0A291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0CD93C2-6E4F-410C-A55F-7846E6B0A291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA49C69-797C-4E93-A242-0794807367FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA49C69-797C-4E93-A242-0794807367FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA49C69-797C-4E93-A242-0794807367FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA49C69-797C-4E93-A242-0794807367FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +120,8 @@ Global
 		{5978C147-92ED-4F02-B208-AED1F3E79149} = {E5938D65-5762-423B-8A51-2AE6931B90F3}
 		{E63D6167-B519-4C1A-8482-EB13568B6080} = {E5938D65-5762-423B-8A51-2AE6931B90F3}
 		{B0CD93C2-6E4F-410C-A55F-7846E6B0A291} = {D54B5CD6-71B6-472B-B875-CF6112441752}
+		{C684CE68-86BB-4DB5-9F7B-1FB44A926ED4} = {7DA33F1F-00B6-4E99-A3EF-C34A06D7B6F6}
+		{FDA49C69-797C-4E93-A242-0794807367FE} = {E5938D65-5762-423B-8A51-2AE6931B90F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A641BDB6-CFC0-41C4-89DB-26FDF2035E5B}

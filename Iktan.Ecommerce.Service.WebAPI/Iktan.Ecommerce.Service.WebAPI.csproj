@@ -4,6 +4,9 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7bf6d17a-bc55-48a4-aa37-61f1b3a331a5</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +14,8 @@
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
   </ItemGroup>
 
@@ -19,13 +23,31 @@
     <ProjectReference Include="..\Iktan.Ecommerce.App.DTO\Iktan.Ecommerce.App.DTO.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.App.Interface\Iktan.Ecommerce.App.Interface.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.App.Main\Iktan.Ecommerce.App.Main.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.App.Validation\Iktan.Ecommerce.App.Validation.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.Domain.Core\Iktan.Ecommerce.Domain.Core.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.Domain.Interface\Iktan.Ecommerce.Domain.Interface.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.Infraestructure.Data\Iktan.Ecommerce.Infraestructure.Data.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.Infraestructure.Interface\Iktan.Ecommerce.Infraestructure.Interface.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.Infraestructure.Repository\Iktan.Ecommerce.Infraestructure.Repository.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.Transversal.Common\Iktan.Ecommerce.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Iktan.Ecommerce.Transversal.Logging\Iktan.Ecommerce.Transversal.Logging.csproj" />
     <ProjectReference Include="..\Iktan.Ecommerce.Transversal.Mapper\Iktan.Ecommerce.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="..\.dockerignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="..\.dockerignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="..\.dockerignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="..\.dockerignore" />
   </ItemGroup>
 
 </Project>

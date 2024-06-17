@@ -9,6 +9,7 @@ using Iktan.Ecommerce.App.Interface;
 using Iktan.Ecommerce.Domain.Entity;
 using Iktan.Ecommerce.Domain.Interface;
 using Iktan.Ecommerce.Transversal.Common;
+using Iktan.Ecommerce.App.Validation;
 
 namespace Iktan.Ecommerce.App.Main
 {
@@ -17,19 +18,24 @@ namespace Iktan.Ecommerce.App.Main
 
         private readonly IUserDomain _userDomain;
         private readonly IMapper _mapper;
+        private readonly UserDtoValidator _userDtoValidator;
 
-        public UserApplication(IUserDomain userDomain, IMapper mapper)
+        public UserApplication(IUserDomain userDomain, IMapper mapper, UserDtoValidator userDtoValidator)
         {
             _userDomain = userDomain;
             _mapper = mapper;
+            _userDtoValidator = userDtoValidator;
         }
 
         public async Task<Response<UserDTO>> Authenticate(string userName, string password)
         {
             var response = new Response<UserDTO>();
-            if(string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
+            var validation = _userDtoValidator.Validate(new UserDTO() { UserName = userName, Password = password });
+
+            if(!validation.IsValid)
             {
-                response.Message = "Parámetros no pueden ser vacios.";
+                response.Message = "Errores de Validación.";
+                response.Errors = validation.Errors;
                 return response;
             }
             try

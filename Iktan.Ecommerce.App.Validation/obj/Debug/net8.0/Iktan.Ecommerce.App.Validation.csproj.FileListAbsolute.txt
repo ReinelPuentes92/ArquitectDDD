@@ -1,0 +1,16 @@
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\bin\Debug\net8.0\Iktan.Ecommerce.App.Validation.deps.json
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\bin\Debug\net8.0\Iktan.Ecommerce.App.Validation.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\bin\Debug\net8.0\Iktan.Ecommerce.App.Validation.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\bin\Debug\net8.0\Iktan.Ecommerce.App.DTO.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\bin\Debug\net8.0\Iktan.Ecommerce.App.DTO.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.csproj.AssemblyReference.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.AssemblyInfoInputs.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.AssemblyInfo.cs
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.csproj.CoreCompileInputs.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.sourcelink.json
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ec.254396E3.Up2Date
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\refint\Iktan.Ecommerce.App.Validation.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\Iktan.Ecommerce.App.Validation.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.App.Validation\obj\Debug\net8.0\ref\Iktan.Ecommerce.App.Validation.dll

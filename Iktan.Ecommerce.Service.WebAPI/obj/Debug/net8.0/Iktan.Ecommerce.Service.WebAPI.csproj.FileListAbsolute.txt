@@ -73,3 +73,11 @@ E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Servi
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\obj\Debug\net8.0\Iktan.Ecommerce.Service.WebAPI.pdb
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\obj\Debug\net8.0\Iktan.Ecommerce.Service.WebAPI.genruntimeconfig.cache
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\obj\Debug\net8.0\ref\Iktan.Ecommerce.Service.WebAPI.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\bin\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\bin\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\bin\Debug\net8.0\Iktan.Ecommerce.Service.WebAPI.xml
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\obj\Debug\net8.0\Iktan.Ecommerce.Service.WebAPI.xml
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\bin\Debug\net8.0\FluentValidation.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\bin\Debug\net8.0\Iktan.Ecommerce.App.Validation.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Service.WebAPI\bin\Debug\net8.0\Iktan.Ecommerce.App.Validation.pdb

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("7bf6d17a-bc55-48a4-aa37-61f1b3a331a5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Iktan.Ecommerce.Service.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b5f92885c8ca5781b51677bc0abad6eca9083a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37b8c8953a92ddda7dddf4071c5c32ecb94d06b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Iktan.Ecommerce.Service.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Iktan.Ecommerce.Service.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
