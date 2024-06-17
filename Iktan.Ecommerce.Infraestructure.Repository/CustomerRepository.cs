@@ -22,94 +22,7 @@ namespace Iktan.Ecommerce.Infraestructure.Repository
         public CustomerRepository(IConnectionFactory connectionFactory)
         {
             _connectionFactory = connectionFactory;
-        }
-
-        #region metodos sincronos
-
-        public bool Insert(Customers customer) 
-        {
-            using (var connection = _connectionFactory.GetDbConnection)
-            {
-                var storeSp = "CustomersInsert";
-                var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customer.CustomerId);
-                parameters.Add("CompanyName", customer.CompanyName);
-                parameters.Add("ContactName", customer.ContactName);
-                parameters.Add("ContactTitle", customer.ContactTitle);
-                parameters.Add("Address", customer.Address);
-                parameters.Add("City", customer.City);
-                parameters.Add("Region", customer.Region);
-                parameters.Add("PostalCode", customer.PostalCode);
-                parameters.Add("Country", customer.Country);
-                parameters.Add("Phone", customer.Phone);
-	            parameters.Add("Fax", customer.Fax);
-
-                var responseSp = connection.Execute(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
-                return responseSp > 0;
-            }
-        }
-
-        public bool Update(Customers customer) 
-        {
-            using (var connection = _connectionFactory.GetDbConnection)
-            {
-                var storeSp = "CustomersUpdate";
-                var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customer.CustomerId);
-                parameters.Add("CompanyName", customer.CompanyName);
-                parameters.Add("ContactName", customer.ContactName);
-                parameters.Add("ContactTitle", customer.ContactTitle);
-                parameters.Add("Address", customer.Address);
-                parameters.Add("City", customer.City);
-                parameters.Add("Region", customer.Region);
-                parameters.Add("PostalCode", customer.PostalCode);
-                parameters.Add("Country", customer.Country);
-                parameters.Add("Phone", customer.Phone);
-                parameters.Add("Fax", customer.Fax);
-
-                var responseSp = connection.Execute(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
-                return responseSp > 0;
-            }
-        }
-
-        public bool Delete(string customerId) 
-        {
-            using (var connection = _connectionFactory.GetDbConnection) 
-            {
-                var storeSp = "CustomersDelete";
-                var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customerId);
-
-                var responseSp = connection.Execute(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
-                return responseSp > 0;
-            }
-        }
-
-        public Customers Get(string customerId) 
-        {
-            using (var connection = _connectionFactory.GetDbConnection) 
-            {
-                var storeSp = "CustomersGetByID";
-                var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customerId);
-
-                var responseSp = connection.QuerySingle<Customers>(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
-                return responseSp;
-            }
-        }
-
-        public IEnumerable<Customers> GetAll() 
-        {
-            using (var connection = _connectionFactory.GetDbConnection)
-            {
-                var storeSp = "CustomersList";
-
-                var responseSp = connection.Query<Customers>(storeSp, commandType: CommandType.StoredProcedure);
-                return responseSp;
-            }
-        }
-
-        #endregion
+        }        
 
         #region Metodos Asincronos
 
@@ -118,18 +31,41 @@ namespace Iktan.Ecommerce.Infraestructure.Repository
             using (var connection = _connectionFactory.GetDbConnection) 
             {
                 var storeSp = "CustomersInsert";
+
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customer.CustomerId);
-                parameters.Add("CompanyName", customer.CompanyName);
-                parameters.Add("ContactName", customer.ContactName);
-                parameters.Add("ContactTitle", customer.ContactTitle);
-                parameters.Add("Address", customer.Address);
-                parameters.Add("City", customer.City);
-                parameters.Add("Region", customer.Region);
-                parameters.Add("PostalCode", customer.PostalCode);
-                parameters.Add("Country", customer.Country);
-                parameters.Add("Phone", customer.Phone);
-                parameters.Add("Fax", customer.Fax);
+                parameters.Add("@CustomerID", customer.CustomerId,
+                        dbType: DbType.String,
+                        direction: ParameterDirection.Input);
+                parameters.Add("@CompanyName", customer.CompanyName,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@ContactName", customer.ContactName,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@ContactTitle", customer.CustomerId,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Address", customer.Address,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@City", customer.City,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Region", customer.Region,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@PostalCode", customer.PostalCode,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Country", customer.Country,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Phone", customer.Phone,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Fax", customer.Fax,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
 
                 var responseSp = await connection.ExecuteAsync(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
                 return responseSp > 0;
@@ -141,18 +77,42 @@ namespace Iktan.Ecommerce.Infraestructure.Repository
             using (var connection = _connectionFactory.GetDbConnection) 
             {
                 var storeSp = "CustomersUpdate";
+
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customer.CustomerId);
-                parameters.Add("CompanyName", customer.CompanyName);
-                parameters.Add("ContactName", customer.ContactName);
-                parameters.Add("ContactTitle", customer.ContactTitle);
-                parameters.Add("Address", customer.Address);
-                parameters.Add("City", customer.City);
-                parameters.Add("Region", customer.Region);
-                parameters.Add("PostalCode", customer.PostalCode);
-                parameters.Add("Country", customer.Country);
-                parameters.Add("Phone", customer.Phone);
-                parameters.Add("Fax", customer.Fax);
+                parameters.Add("@CustomerID", customer.CustomerId,
+                        dbType: DbType.String,
+                        direction: ParameterDirection.Input);
+                parameters.Add("@CompanyName", customer.CompanyName,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@ContactName", customer.ContactName,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@ContactTitle", customer.CustomerId,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Address", customer.Address,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@City", customer.City,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Region", customer.Region,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@PostalCode", customer.PostalCode,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Country", customer.Country,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Phone", customer.Phone,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+                parameters.Add("@Fax", customer.Fax,
+                       dbType: DbType.String,
+                       direction: ParameterDirection.Input);
+
 
                 var responseSp = await connection.ExecuteAsync(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
                 return responseSp > 0;
@@ -166,7 +126,9 @@ namespace Iktan.Ecommerce.Infraestructure.Repository
             {
                 var storeSp = "CustomersDelete";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customerId);
+                parameters.Add("@CustomerID", customerId,
+                        dbType: DbType.String,
+                        direction: ParameterDirection.Input);
 
                 var responseSp = await connection.ExecuteAsync(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
                 return responseSp > 0;
@@ -176,12 +138,13 @@ namespace Iktan.Ecommerce.Infraestructure.Repository
         public async Task<Customers> GetAsync(string customerId) 
         {
             using (var connection = _connectionFactory.GetDbConnection) 
-            {
+            {                
                 var storeSp = "CustomersGetByID";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerID", customerId);
-
-                var responseSp = await connection.QuerySingleAsync<Customers>(storeSp, param: customerId, commandType: CommandType.StoredProcedure);
+                parameters.Add("@CustomerID", customerId,
+                        dbType: DbType.String,
+                        direction: ParameterDirection.Input);
+                var responseSp = await connection.QuerySingleAsync<Customers>(storeSp, param: parameters, commandType: CommandType.StoredProcedure);
                 return responseSp;
             }
         }

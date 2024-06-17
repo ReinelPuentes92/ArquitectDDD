@@ -16,6 +16,14 @@
           "Iktan.Ecommerce.Infraestructure.Data.dll": {}
         }
       },
+      "FluentValidation/11.9.2": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.2.0"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -123,6 +131,9 @@
       },
       "System.Security.Principal.Windows/4.7.0": {},
       "Iktan.Ecommerce.Transversal.Common/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.2"
+        },
         "runtime": {
           "Iktan.Ecommerce.Transversal.Common.dll": {}
         }
@@ -134,6 +145,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XeHp9LvFvu1fsQ/NvDCymV02GOCB1nz7ZUhfpI3uMhCcHTkV1K5bMkv+Nc/kuNYyAsX5+5bcmUanIEMd5QN+Eg==",
+      "path": "fluentvalidation/11.9.2",
+      "hashPath": "fluentvalidation.11.9.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",

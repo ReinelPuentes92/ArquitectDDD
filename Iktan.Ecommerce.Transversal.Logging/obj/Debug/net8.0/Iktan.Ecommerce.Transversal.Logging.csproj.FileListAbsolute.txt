@@ -1,0 +1,16 @@
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\bin\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.deps.json
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\bin\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\bin\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\bin\Debug\net8.0\Iktan.Ecommerce.Transversal.Common.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\bin\Debug\net8.0\Iktan.Ecommerce.Transversal.Common.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.csproj.AssemblyReference.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.AssemblyInfoInputs.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.AssemblyInfo.cs
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.csproj.CoreCompileInputs.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.sourcelink.json
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ec.DA207CEC.Up2Date
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\refint\Iktan.Ecommerce.Transversal.Logging.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\Iktan.Ecommerce.Transversal.Logging.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Transversal.Logging\obj\Debug\net8.0\ref\Iktan.Ecommerce.Transversal.Logging.dll

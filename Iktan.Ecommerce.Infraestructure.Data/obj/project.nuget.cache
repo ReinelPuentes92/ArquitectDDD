@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U+crY5P0lH88ddwUP/ZvuGFwctBSOUwVBYLX56gKmWg1GWN9dRrMkr6s/irlLeO1f6R4IsLuZU/USnwV9KcYqQ==",
+  "dgSpecHash": "QGI6t0d5o5Q=",
   "success": true,
   "projectFilePath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data\\Iktan.Ecommerce.Infraestructure.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Reinel Puentes\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Reinel Puentes\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Reinel Puentes\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Reinel Puentes\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",

@@ -1,0 +1,12 @@
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\bin\Release\net8.0\Iktan.Ecommerce.Domain.Entity.deps.json
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\bin\Release\net8.0\Iktan.Ecommerce.Domain.Entity.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\bin\Release\net8.0\Iktan.Ecommerce.Domain.Entity.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\Iktan.Ecommerce.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\Iktan.Ecommerce.Domain.Entity.AssemblyInfoInputs.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\Iktan.Ecommerce.Domain.Entity.AssemblyInfo.cs
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\Iktan.Ecommerce.Domain.Entity.csproj.CoreCompileInputs.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\Iktan.Ecommerce.Domain.Entity.sourcelink.json
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\Iktan.Ecommerce.Domain.Entity.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\refint\Iktan.Ecommerce.Domain.Entity.dll
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\Iktan.Ecommerce.Domain.Entity.pdb
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Domain.Entity\obj\Release\net8.0\ref\Iktan.Ecommerce.Domain.Entity.dll

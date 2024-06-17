@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController",
+    "Method": "CustomerReportAsync",
+    "RelativePath": "Customer/CustomerReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController",
+    "Method": "CustomerSearchAsync",
+    "RelativePath": "Customer/CustomerSearch/{CustomerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController",
+    "Method": "DiseableCustomerAsync",
+    "RelativePath": "Customer/DiseableCustomer/{CustomerId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController",
+    "Method": "RefreshCustomerAsync",
+    "RelativePath": "Customer/RefreshCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDTO",
+        "Type": "Iktan.Ecommerce.App.DTO.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController",
+    "Method": "RegistryCustomerAsync",
+    "RelativePath": "Customer/RegistryCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDTO",
+        "Type": "Iktan.Ecommerce.App.DTO.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,6 +1,4 @@
 ﻿using AutoMapper;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 
 using Iktan.Ecommerce.App.DTO;
 using Iktan.Ecommerce.App.Interface;
@@ -14,128 +12,14 @@ namespace Iktan.Ecommerce.App.Main
     {
         private readonly ICustomerDomain _domain;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<CustomerApplication> _logger;
 
-        public CustomerApplication(ICustomerDomain domain, IMapper mapper)
+        public CustomerApplication(ICustomerDomain domain, IMapper mapper, IAppLogger<CustomerApplication> logger)
         {
             _domain = domain;
             _mapper = mapper;
+            _logger = logger;
         }
-
-        #region Metodos Sincronos
-        public Response<bool> Insert(CustomerDTO customerDTO)
-        {
-            var response = new Response<bool>();
-
-            try
-            {
-                var customer = _mapper.Map<Customers>(customerDTO);
-                response.Data = _domain.Insert(customer);
-
-                if (response.Data)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Registro Exitoso !!!";
-                }
-
-            } catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = ex.Message;
-            }
-
-            return response;
-        }
-
-        public Response<bool> Update(CustomerDTO customerDTO) 
-        {
-            var response = new Response<bool>();
-
-            try
-            {
-                var customer = _mapper.Map<Customers>(customerDTO);
-                response.Data = _domain.Update(customer);
-
-                if (response.Data) 
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Actualizacion Exitosa !!!";
-                }
-
-            } catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = ex.Message;
-            }
-
-            return response;
-        }
-
-        public Response<bool> Delete(string CustomerId)
-        {
-            var response = new Response<bool>();
-            try
-            {
-                response.Data = _domain.Delete(CustomerId);
-                if (response.Data)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Eliminacion Exitosa !!!";
-                }
-
-            } catch (Exception ex) 
-            {
-                response.IsSuccess = false;
-                response.Message = ex.Message;
-            }
-
-            return response;
-        }
-
-        public Response<CustomerDTO> Get(string CustomerId)
-        {
-            var response = new Response<CustomerDTO>();
-            try
-            {
-                var customer = _domain.Get(CustomerId);
-                response.Data = _mapper.Map<CustomerDTO>(customer);
-                
-                if (response.Data != null)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Consulta Satisfactoria !!!";
-
-                }
-            } catch (Exception ex)
-            {
-                response.IsSuccess = false;
-                response.Message = ex.Message;
-            }
-
-            return response;
-        }
-
-        public Response<IEnumerable<CustomerDTO>> GetAll() 
-        {
-            var response = new Response<IEnumerable<CustomerDTO>>();
-            try
-            {
-                var customer = _domain.GetAll();
-                response.Data = _mapper.Map<IEnumerable<CustomerDTO>>(customer);
-
-                if (response.Data != null)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Datos Cargados !!!";
-                }
-            } catch(Exception ex) 
-            {
-                response.IsSuccess = false;
-                response.Message = ex.Message;
-            }
-
-            return response;
-        }
-        #endregion
 
         #region Metodos Asincronos
 
@@ -223,13 +107,14 @@ namespace Iktan.Ecommerce.App.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Satisfactoria !!!";
-
+                    _logger.LogInformation("Consulta Satisfactoria !!!");
                 }
             }
             catch (Exception ex)
             {
                 response.IsSuccess = false;
                 response.Message = ex.Message;
+                _logger.LogError(ex.Message);
             }
 
             return response;
@@ -247,12 +132,14 @@ namespace Iktan.Ecommerce.App.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Datos Cargados !!!";
+                    _logger.LogInformation("Datos Cargados !!!");
                 }
             }
             catch (Exception ex)
             {
                 response.IsSuccess = false;
                 response.Message = ex.Message;
+                _logger.LogError(ex.Message);
             }
 
             return response;

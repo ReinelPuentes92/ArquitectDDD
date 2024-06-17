@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Iktan.Ecommerce.Service.WebAPI.props" />
+</Project>

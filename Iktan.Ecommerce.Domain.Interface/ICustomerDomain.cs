@@ -10,17 +10,7 @@ using Iktan.Ecommerce.Domain.Entity;
 namespace Iktan.Ecommerce.Domain.Interface
 {
     public interface ICustomerDomain
-    {
-        #region Metodos Sincronos
-
-        bool Insert(Customers customers);
-        bool Update(Customers customers);
-        bool Delete(string customerId);
-
-        Customers Get(string customerId);
-        IEnumerable<Customers> GetAll();
-
-        #endregion
+    {       
 
         #region Metodos Asincronos
 

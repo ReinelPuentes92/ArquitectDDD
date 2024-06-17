@@ -8,9 +8,9 @@ E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infra
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Data.AssemblyInfoInputs.cache
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Data.AssemblyInfo.cs
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Data.csproj.CoreCompileInputs.cache
+E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Data.sourcelink.json
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ec.6255859E.Up2Date
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Data.dll
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\refint\Iktan.Ecommerce.Infraestructure.Data.dll
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Data.pdb
 E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\ref\Iktan.Ecommerce.Infraestructure.Data.dll
-E:\Personal\Cursos\2024\C#\Iktan.Eccomerce\Iktan.Ecommerce\Iktan.Ecommerce.Infraestructure.Data\obj\Debug\net8.0\Iktan.Ecommerce.Infraestructure.Data.sourcelink.json

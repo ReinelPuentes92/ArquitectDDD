@@ -19,35 +19,7 @@ namespace Iktan.Ecommerce.Domain.Core
         {
             _customerRepository = customerRepository;
         }
-
-        #region Metodos Sincronos
-
-        public bool Insert(Customers customers)
-        {
-            return (_customerRepository.Insert(customers));
-        }
-
-        public bool Update(Customers customers) 
-        {
-            return (_customerRepository.Update(customers));
-        }
-
-        public bool Delete(string customerId) 
-        {
-            return (_customerRepository.Delete(customerId));
-        }
-
-        public Customers Get(string customerId)
-        {
-            return (_customerRepository.Get(customerId));
-        }
-
-        public IEnumerable<Customers> GetAll() 
-        {
-            return (_customerRepository.GetAll());
-        }
-
-        #endregion
+        
 
         #region Metodo Asincrono
 

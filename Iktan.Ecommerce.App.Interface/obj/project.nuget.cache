@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u0FbJw+Amykoq2muzvCc8PdLq/Ai6+aJ88DU00o3hzDGtHiaTy5Mrh8BPZftLt2oynQAe3IZwmVPDvihkO3l8Q==",
+  "dgSpecHash": "vM8HDxxh7/g=",
   "success": true,
   "projectFilePath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Interface\\Iktan.Ecommerce.App.Interface.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Reinel Puentes\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
   "logs": []
 }

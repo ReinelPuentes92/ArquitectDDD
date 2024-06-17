@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kxsXaFP6TtWvt6l3sDP82E7zuitR4yIbbuxv57oPUdl7kixtTrtyYlsjjjZGmN9d2WXtwjrmuHZIKS4OKyUxVQ==",
+  "dgSpecHash": "Iwsr2EnQfd8=",
   "success": true,
   "projectFilePath": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main\\Iktan.Ecommerce.App.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reinel Puentes\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Reinel Puentes\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Reinel Puentes\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\Reinel Puentes\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Reinel Puentes\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Reinel Puentes\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
