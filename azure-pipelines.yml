@@ -17,9 +17,11 @@ steps:
 
 - script: |
     sudo apt-get update
-    sudo apt-get install -y mono-complete
+    for i in {1..5}; do
+      sudo apt-get install -y mono-complete && break || sleep 15
+    done
     sudo apt-get install -y docfx
-  displayName: 'Install Mono and DocFX'
+  displayName: 'Install Mono and DocFX with Retry Logic'
 
 - script: |
     dotnet build --configuration $(buildConfiguration)
