@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  commentId: T:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  id: ICustomerRepository
+  parent: Iktan.Ecommerce.Infraestructure.Interface
+  children:
+  - Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync(System.String)
+  - Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync
+  - Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync(System.String)
+  - Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  - Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  langs:
+  - csharp
+  - vb
+  name: ICustomerRepository
+  nameWithType: ICustomerRepository
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  type: Interface
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: ICustomerRepository
+    path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+    startLine: 10
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: public interface ICustomerRepository
+    content.vb: Public Interface ICustomerRepository
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  commentId: M:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  id: InsertAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  parent: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  langs:
+  - csharp
+  - vb
+  name: InsertAsync(Customers)
+  nameWithType: ICustomerRepository.InsertAsync(Customers)
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  type: Method
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: InsertAsync
+    path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+    startLine: 15
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: Task<bool> InsertAsync(Customers customers)
+    parameters:
+    - id: customers
+      type: Iktan.Ecommerce.Domain.Entity.Customers
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function InsertAsync(customers As Customers) As Task(Of Boolean)
+  overload: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync*
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  commentId: M:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  id: UpdateAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  parent: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync(Customers)
+  nameWithType: ICustomerRepository.UpdateAsync(Customers)
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync(Iktan.Ecommerce.Domain.Entity.Customers)
+  type: Method
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: UpdateAsync
+    path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+    startLine: 16
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: Task<bool> UpdateAsync(Customers customers)
+    parameters:
+    - id: customers
+      type: Iktan.Ecommerce.Domain.Entity.Customers
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function UpdateAsync(customers As Customers) As Task(Of Boolean)
+  overload: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync*
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync(System.String)
+  commentId: M:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync(System.String)
+  id: DeleteAsync(System.String)
+  parent: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(string)
+  nameWithType: ICustomerRepository.DeleteAsync(string)
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync(string)
+  type: Method
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: DeleteAsync
+    path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+    startLine: 17
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: Task<bool> DeleteAsync(string customerId)
+    parameters:
+    - id: customerId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function DeleteAsync(customerId As String) As Task(Of Boolean)
+  overload: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync*
+  nameWithType.vb: ICustomerRepository.DeleteAsync(String)
+  fullName.vb: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync(String)
+  name.vb: DeleteAsync(String)
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync(System.String)
+  commentId: M:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync(System.String)
+  id: GetAsync(System.String)
+  parent: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(string)
+  nameWithType: ICustomerRepository.GetAsync(string)
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync(string)
+  type: Method
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: GetAsync
+    path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+    startLine: 19
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: Task<Customers> GetAsync(string customerId)
+    parameters:
+    - id: customerId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Iktan.Ecommerce.Domain.Entity.Customers}
+    content.vb: Function GetAsync(customerId As String) As Task(Of Customers)
+  overload: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync*
+  nameWithType.vb: ICustomerRepository.GetAsync(String)
+  fullName.vb: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync(String)
+  name.vb: GetAsync(String)
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync
+  commentId: M:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync
+  id: GetAllAsync
+  parent: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync()
+  nameWithType: ICustomerRepository.GetAllAsync()
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync()
+  type: Method
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: GetAllAsync
+    path: Iktan.Ecommerce.Infraestructure.Interface/ICustomerRepository.cs
+    startLine: 20
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: Task<IEnumerable<Customers>> GetAllAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Iktan.Ecommerce.Domain.Entity.Customers}}
+    content.vb: Function GetAllAsync() As Task(Of IEnumerable(Of Customers))
+  overload: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync*
+references:
+- uid: Iktan.Ecommerce.Infraestructure.Interface
+  commentId: N:Iktan.Ecommerce.Infraestructure.Interface
+  href: Iktan.html
+  name: Iktan.Ecommerce.Infraestructure.Interface
+  nameWithType: Iktan.Ecommerce.Infraestructure.Interface
+  fullName: Iktan.Ecommerce.Infraestructure.Interface
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure
+    name: Infraestructure
+    href: Iktan.Ecommerce.Infraestructure.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Infraestructure.Interface.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure
+    name: Infraestructure
+    href: Iktan.Ecommerce.Infraestructure.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Infraestructure.Interface.html
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync*
+  commentId: Overload:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync
+  href: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.html#Iktan_Ecommerce_Infraestructure_Interface_ICustomerRepository_InsertAsync_Iktan_Ecommerce_Domain_Entity_Customers_
+  name: InsertAsync
+  nameWithType: ICustomerRepository.InsertAsync
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.InsertAsync
+- uid: Iktan.Ecommerce.Domain.Entity.Customers
+  commentId: T:Iktan.Ecommerce.Domain.Entity.Customers
+  parent: Iktan.Ecommerce.Domain.Entity
+  href: Iktan.Ecommerce.Domain.Entity.Customers.html
+  name: Customers
+  nameWithType: Customers
+  fullName: Iktan.Ecommerce.Domain.Entity.Customers
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Iktan.Ecommerce.Domain.Entity
+  commentId: N:Iktan.Ecommerce.Domain.Entity
+  href: Iktan.html
+  name: Iktan.Ecommerce.Domain.Entity
+  nameWithType: Iktan.Ecommerce.Domain.Entity
+  fullName: Iktan.Ecommerce.Domain.Entity
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain
+    name: Domain
+    href: Iktan.Ecommerce.Domain.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain.Entity
+    name: Entity
+    href: Iktan.Ecommerce.Domain.Entity.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain
+    name: Domain
+    href: Iktan.Ecommerce.Domain.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain.Entity
+    name: Entity
+    href: Iktan.Ecommerce.Domain.Entity.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync*
+  commentId: Overload:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync
+  href: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.html#Iktan_Ecommerce_Infraestructure_Interface_ICustomerRepository_UpdateAsync_Iktan_Ecommerce_Domain_Entity_Customers_
+  name: UpdateAsync
+  nameWithType: ICustomerRepository.UpdateAsync
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.UpdateAsync
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync*
+  commentId: Overload:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync
+  href: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.html#Iktan_Ecommerce_Infraestructure_Interface_ICustomerRepository_DeleteAsync_System_String_
+  name: DeleteAsync
+  nameWithType: ICustomerRepository.DeleteAsync
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.DeleteAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync*
+  commentId: Overload:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync
+  href: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.html#Iktan_Ecommerce_Infraestructure_Interface_ICustomerRepository_GetAsync_System_String_
+  name: GetAsync
+  nameWithType: ICustomerRepository.GetAsync
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAsync
+- uid: System.Threading.Tasks.Task{Iktan.Ecommerce.Domain.Entity.Customers}
+  commentId: T:System.Threading.Tasks.Task{Iktan.Ecommerce.Domain.Entity.Customers}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Customers>
+  nameWithType: Task<Customers>
+  fullName: System.Threading.Tasks.Task<Iktan.Ecommerce.Domain.Entity.Customers>
+  nameWithType.vb: Task(Of Customers)
+  fullName.vb: System.Threading.Tasks.Task(Of Iktan.Ecommerce.Domain.Entity.Customers)
+  name.vb: Task(Of Customers)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Iktan.Ecommerce.Domain.Entity.Customers
+    name: Customers
+    href: Iktan.Ecommerce.Domain.Entity.Customers.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Iktan.Ecommerce.Domain.Entity.Customers
+    name: Customers
+    href: Iktan.Ecommerce.Domain.Entity.Customers.html
+  - name: )
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync*
+  commentId: Overload:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync
+  href: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.html#Iktan_Ecommerce_Infraestructure_Interface_ICustomerRepository_GetAllAsync
+  name: GetAllAsync
+  nameWithType: ICustomerRepository.GetAllAsync
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.GetAllAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Iktan.Ecommerce.Domain.Entity.Customers}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Iktan.Ecommerce.Domain.Entity.Customers}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IEnumerable<Customers>>
+  nameWithType: Task<IEnumerable<Customers>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<Iktan.Ecommerce.Domain.Entity.Customers>>
+  nameWithType.vb: Task(Of IEnumerable(Of Customers))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of Iktan.Ecommerce.Domain.Entity.Customers))
+  name.vb: Task(Of IEnumerable(Of Customers))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Iktan.Ecommerce.Domain.Entity.Customers
+    name: Customers
+    href: Iktan.Ecommerce.Domain.Entity.Customers.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Iktan.Ecommerce.Domain.Entity.Customers
+    name: Customers
+    href: Iktan.Ecommerce.Domain.Entity.Customers.html
+  - name: )
+  - name: )

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Domain.Core
+  commentId: N:Iktan.Ecommerce.Domain.Core
+  id: Iktan.Ecommerce.Domain.Core
+  children:
+  - Iktan.Ecommerce.Domain.Core.CustomerDomain
+  - Iktan.Ecommerce.Domain.Core.UserDomain
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Domain.Core
+  nameWithType: Iktan.Ecommerce.Domain.Core
+  fullName: Iktan.Ecommerce.Domain.Core
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Domain.Core
+references:
+- uid: Iktan.Ecommerce.Domain.Core.CustomerDomain
+  commentId: T:Iktan.Ecommerce.Domain.Core.CustomerDomain
+  href: Iktan.Ecommerce.Domain.Core.CustomerDomain.html
+  name: CustomerDomain
+  nameWithType: CustomerDomain
+  fullName: Iktan.Ecommerce.Domain.Core.CustomerDomain
+- uid: Iktan.Ecommerce.Domain.Core.UserDomain
+  commentId: T:Iktan.Ecommerce.Domain.Core.UserDomain
+  href: Iktan.Ecommerce.Domain.Core.UserDomain.html
+  name: UserDomain
+  nameWithType: UserDomain
+  fullName: Iktan.Ecommerce.Domain.Core.UserDomain

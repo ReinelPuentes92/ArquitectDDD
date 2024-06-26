@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Transversal.Common.IConnectionFactory
+  commentId: T:Iktan.Ecommerce.Transversal.Common.IConnectionFactory
+  id: IConnectionFactory
+  parent: Iktan.Ecommerce.Transversal.Common
+  children:
+  - Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection
+  langs:
+  - csharp
+  - vb
+  name: IConnectionFactory
+  nameWithType: IConnectionFactory
+  fullName: Iktan.Ecommerce.Transversal.Common.IConnectionFactory
+  type: Interface
+  source:
+    remote:
+      path: Iktan.Ecommerce.Transversal.Common/IConnectionFactory.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: IConnectionFactory
+    path: Iktan.Ecommerce.Transversal.Common/IConnectionFactory.cs
+    startLine: 9
+  assemblies:
+  - Iktan.Ecommerce.Transversal.Common
+  namespace: Iktan.Ecommerce.Transversal.Common
+  syntax:
+    content: public interface IConnectionFactory
+    content.vb: Public Interface IConnectionFactory
+- uid: Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection
+  commentId: P:Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection
+  id: GetDbConnection
+  parent: Iktan.Ecommerce.Transversal.Common.IConnectionFactory
+  langs:
+  - csharp
+  - vb
+  name: GetDbConnection
+  nameWithType: IConnectionFactory.GetDbConnection
+  fullName: Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection
+  type: Property
+  source:
+    remote:
+      path: Iktan.Ecommerce.Transversal.Common/IConnectionFactory.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: GetDbConnection
+    path: Iktan.Ecommerce.Transversal.Common/IConnectionFactory.cs
+    startLine: 11
+  assemblies:
+  - Iktan.Ecommerce.Transversal.Common
+  namespace: Iktan.Ecommerce.Transversal.Common
+  syntax:
+    content: IDbConnection GetDbConnection { get; }
+    parameters: []
+    return:
+      type: System.Data.IDbConnection
+    content.vb: ReadOnly Property GetDbConnection As IDbConnection
+  overload: Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection*
+references:
+- uid: Iktan.Ecommerce.Transversal.Common
+  commentId: N:Iktan.Ecommerce.Transversal.Common
+  href: Iktan.html
+  name: Iktan.Ecommerce.Transversal.Common
+  nameWithType: Iktan.Ecommerce.Transversal.Common
+  fullName: Iktan.Ecommerce.Transversal.Common
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Transversal
+    name: Transversal
+    href: Iktan.Ecommerce.Transversal.html
+  - name: .
+  - uid: Iktan.Ecommerce.Transversal.Common
+    name: Common
+    href: Iktan.Ecommerce.Transversal.Common.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Transversal
+    name: Transversal
+    href: Iktan.Ecommerce.Transversal.html
+  - name: .
+  - uid: Iktan.Ecommerce.Transversal.Common
+    name: Common
+    href: Iktan.Ecommerce.Transversal.Common.html
+- uid: Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection*
+  commentId: Overload:Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection
+  href: Iktan.Ecommerce.Transversal.Common.IConnectionFactory.html#Iktan_Ecommerce_Transversal_Common_IConnectionFactory_GetDbConnection
+  name: GetDbConnection
+  nameWithType: IConnectionFactory.GetDbConnection
+  fullName: Iktan.Ecommerce.Transversal.Common.IConnectionFactory.GetDbConnection
+- uid: System.Data.IDbConnection
+  commentId: T:System.Data.IDbConnection
+  parent: System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbconnection
+  name: IDbConnection
+  nameWithType: IDbConnection
+  fullName: System.Data.IDbConnection
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Data
+    name: Data
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data

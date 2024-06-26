@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Infraestructure.Data
+  commentId: N:Iktan.Ecommerce.Infraestructure.Data
+  id: Iktan.Ecommerce.Infraestructure.Data
+  children:
+  - Iktan.Ecommerce.Infraestructure.Data.ConnectionFactory
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Infraestructure.Data
+  nameWithType: Iktan.Ecommerce.Infraestructure.Data
+  fullName: Iktan.Ecommerce.Infraestructure.Data
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Data
+references:
+- uid: Iktan.Ecommerce.Infraestructure.Data.ConnectionFactory
+  commentId: T:Iktan.Ecommerce.Infraestructure.Data.ConnectionFactory
+  href: Iktan.Ecommerce.Infraestructure.Data.ConnectionFactory.html
+  name: ConnectionFactory
+  nameWithType: ConnectionFactory
+  fullName: Iktan.Ecommerce.Infraestructure.Data.ConnectionFactory

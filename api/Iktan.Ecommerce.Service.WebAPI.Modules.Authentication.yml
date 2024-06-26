@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication
+  commentId: N:Iktan.Ecommerce.Service.WebAPI.Modules.Authentication
+  id: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication
+  children:
+  - Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.AuthenticationExtensions
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication
+  nameWithType: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication
+  fullName: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+references:
+- uid: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.AuthenticationExtensions
+  commentId: T:Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.AuthenticationExtensions
+  href: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.AuthenticationExtensions.html
+  name: AuthenticationExtensions
+  nameWithType: AuthenticationExtensions
+  fullName: Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.AuthenticationExtensions

@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings
+  commentId: T:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings
+  id: AppSettings
+  parent: Iktan.Ecommerce.Service.WebAPI.Helpers
+  children:
+  - Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience
+  - Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer
+  - Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors
+  - Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret
+  langs:
+  - csharp
+  - vb
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings
+  type: Class
+  source:
+    remote:
+      path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: AppSettings
+    path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+    startLine: 2
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+  namespace: Iktan.Ecommerce.Service.WebAPI.Helpers
+  syntax:
+    content: public class AppSettings
+    content.vb: Public Class AppSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors
+  commentId: P:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors
+  id: OriginCors
+  parent: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: OriginCors
+  nameWithType: AppSettings.OriginCors
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors
+  type: Property
+  source:
+    remote:
+      path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: OriginCors
+    path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+    startLine: 4
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+  namespace: Iktan.Ecommerce.Service.WebAPI.Helpers
+  syntax:
+    content: public string OriginCors { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OriginCors As String
+  overload: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors*
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret
+  commentId: P:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret
+  id: Secret
+  parent: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: AppSettings.Secret
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret
+  type: Property
+  source:
+    remote:
+      path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: Secret
+    path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+    startLine: 5
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+  namespace: Iktan.Ecommerce.Service.WebAPI.Helpers
+  syntax:
+    content: public string Secret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Secret As String
+  overload: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret*
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer
+  commentId: P:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer
+  id: Issuer
+  parent: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: Issuer
+  nameWithType: AppSettings.Issuer
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer
+  type: Property
+  source:
+    remote:
+      path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: Issuer
+    path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+    startLine: 6
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+  namespace: Iktan.Ecommerce.Service.WebAPI.Helpers
+  syntax:
+    content: public string Issuer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Issuer As String
+  overload: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer*
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience
+  commentId: P:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience
+  id: Audience
+  parent: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: AppSettings.Audience
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience
+  type: Property
+  source:
+    remote:
+      path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: Audience
+    path: Iktan.Ecommerce.Service.WebAPI/Helpers/AppSettings.cs
+    startLine: 7
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+  namespace: Iktan.Ecommerce.Service.WebAPI.Helpers
+  syntax:
+    content: public string Audience { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Audience As String
+  overload: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience*
+references:
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers
+  commentId: N:Iktan.Ecommerce.Service.WebAPI.Helpers
+  href: Iktan.html
+  name: Iktan.Ecommerce.Service.WebAPI.Helpers
+  nameWithType: Iktan.Ecommerce.Service.WebAPI.Helpers
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Service
+    name: Service
+    href: Iktan.Ecommerce.Service.html
+  - name: .
+  - uid: Iktan.Ecommerce.Service.WebAPI
+    name: WebAPI
+    href: Iktan.Ecommerce.Service.WebAPI.html
+  - name: .
+  - uid: Iktan.Ecommerce.Service.WebAPI.Helpers
+    name: Helpers
+    href: Iktan.Ecommerce.Service.WebAPI.Helpers.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Service
+    name: Service
+    href: Iktan.Ecommerce.Service.html
+  - name: .
+  - uid: Iktan.Ecommerce.Service.WebAPI
+    name: WebAPI
+    href: Iktan.Ecommerce.Service.WebAPI.html
+  - name: .
+  - uid: Iktan.Ecommerce.Service.WebAPI.Helpers
+    name: Helpers
+    href: Iktan.Ecommerce.Service.WebAPI.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors*
+  commentId: Overload:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors
+  href: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.html#Iktan_Ecommerce_Service_WebAPI_Helpers_AppSettings_OriginCors
+  name: OriginCors
+  nameWithType: AppSettings.OriginCors
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.OriginCors
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret*
+  commentId: Overload:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret
+  href: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.html#Iktan_Ecommerce_Service_WebAPI_Helpers_AppSettings_Secret
+  name: Secret
+  nameWithType: AppSettings.Secret
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Secret
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer*
+  commentId: Overload:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer
+  href: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.html#Iktan_Ecommerce_Service_WebAPI_Helpers_AppSettings_Issuer
+  name: Issuer
+  nameWithType: AppSettings.Issuer
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Issuer
+- uid: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience*
+  commentId: Overload:Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience
+  href: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.html#Iktan_Ecommerce_Service_WebAPI_Helpers_AppSettings_Audience
+  name: Audience
+  nameWithType: AppSettings.Audience
+  fullName: Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.Audience

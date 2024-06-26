@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Transversal.Logging
+  commentId: N:Iktan.Ecommerce.Transversal.Logging
+  id: Iktan.Ecommerce.Transversal.Logging
+  children:
+  - Iktan.Ecommerce.Transversal.Logging.LoggerAdapter`1
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Transversal.Logging
+  nameWithType: Iktan.Ecommerce.Transversal.Logging
+  fullName: Iktan.Ecommerce.Transversal.Logging
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Transversal.Logging
+references:
+- uid: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter`1
+  commentId: T:Iktan.Ecommerce.Transversal.Logging.LoggerAdapter`1
+  href: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter-1.html
+  name: LoggerAdapter<T>
+  nameWithType: LoggerAdapter<T>
+  fullName: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter<T>
+  nameWithType.vb: LoggerAdapter(Of T)
+  fullName.vb: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter(Of T)
+  name.vb: LoggerAdapter(Of T)
+  spec.csharp:
+  - uid: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter`1
+    name: LoggerAdapter
+    href: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter`1
+    name: LoggerAdapter
+    href: Iktan.Ecommerce.Transversal.Logging.LoggerAdapter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

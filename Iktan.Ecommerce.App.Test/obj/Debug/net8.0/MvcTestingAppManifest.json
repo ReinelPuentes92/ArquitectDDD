@@ -1,0 +1,16 @@
+{
+  "Iktan.Ecommerce.App.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.DTO",
+  "Iktan.Ecommerce.App.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Interface",
+  "Iktan.Ecommerce.App.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Main",
+  "Iktan.Ecommerce.App.Validation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.App.Validation",
+  "Iktan.Ecommerce.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Core",
+  "Iktan.Ecommerce.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Entity",
+  "Iktan.Ecommerce.Domain.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Domain.Interface",
+  "Iktan.Ecommerce.Infraestructure.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Data",
+  "Iktan.Ecommerce.Infraestructure.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Interface",
+  "Iktan.Ecommerce.Infraestructure.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Infraestructure.Repository",
+  "Iktan.Ecommerce.Service.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Service.WebAPI",
+  "Iktan.Ecommerce.Transversal.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Common",
+  "Iktan.Ecommerce.Transversal.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Logging",
+  "Iktan.Ecommerce.Transversal.Mapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\Personal\\Cursos\\2024\\C#\\Iktan.Eccomerce\\Iktan.Ecommerce\\Iktan.Ecommerce.Transversal.Mapper"
+}

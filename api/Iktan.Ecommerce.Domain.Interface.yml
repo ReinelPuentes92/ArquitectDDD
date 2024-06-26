@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Domain.Interface
+  commentId: N:Iktan.Ecommerce.Domain.Interface
+  id: Iktan.Ecommerce.Domain.Interface
+  children:
+  - Iktan.Ecommerce.Domain.Interface.ICustomerDomain
+  - Iktan.Ecommerce.Domain.Interface.IUserDomain
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Domain.Interface
+  nameWithType: Iktan.Ecommerce.Domain.Interface
+  fullName: Iktan.Ecommerce.Domain.Interface
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Domain.Interface
+references:
+- uid: Iktan.Ecommerce.Domain.Interface.ICustomerDomain
+  commentId: T:Iktan.Ecommerce.Domain.Interface.ICustomerDomain
+  parent: Iktan.Ecommerce.Domain.Interface
+  href: Iktan.Ecommerce.Domain.Interface.ICustomerDomain.html
+  name: ICustomerDomain
+  nameWithType: ICustomerDomain
+  fullName: Iktan.Ecommerce.Domain.Interface.ICustomerDomain
+- uid: Iktan.Ecommerce.Domain.Interface.IUserDomain
+  commentId: T:Iktan.Ecommerce.Domain.Interface.IUserDomain
+  parent: Iktan.Ecommerce.Domain.Interface
+  href: Iktan.Ecommerce.Domain.Interface.IUserDomain.html
+  name: IUserDomain
+  nameWithType: IUserDomain
+  fullName: Iktan.Ecommerce.Domain.Interface.IUserDomain
+- uid: Iktan.Ecommerce.Domain.Interface
+  commentId: N:Iktan.Ecommerce.Domain.Interface
+  href: Iktan.html
+  name: Iktan.Ecommerce.Domain.Interface
+  nameWithType: Iktan.Ecommerce.Domain.Interface
+  fullName: Iktan.Ecommerce.Domain.Interface
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain
+    name: Domain
+    href: Iktan.Ecommerce.Domain.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Domain.Interface.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain
+    name: Domain
+    href: Iktan.Ecommerce.Domain.html
+  - name: .
+  - uid: Iktan.Ecommerce.Domain.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Domain.Interface.html
