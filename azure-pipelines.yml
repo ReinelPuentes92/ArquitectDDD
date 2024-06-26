@@ -12,7 +12,7 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '8.x'
+    version: '8.x.x'
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - script: |
@@ -22,8 +22,12 @@ steps:
   displayName: 'Install Mono and DocFX'
 
 - script: |
+    dotnet build --configuration $(buildConfiguration)
+  displayName: 'Build .NET Project'
+
+- script: |
     docfx build
-  displayName: 'Build Documentation'
+  displayName: 'Build DocFX Documentation'
 
 - task: PublishBuildArtifacts@1
   inputs:
