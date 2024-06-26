@@ -6,7 +6,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  docfxVersion: '2.59.4'  # Specify DocFX version if needed
+  docfxVersion: '2.76.0'  # Specify DocFX version if needed
 
 steps:
 - task: UseDotNet@2
@@ -24,7 +24,7 @@ steps:
   displayName: 'Build .NET Project'
 
 - script: |
-    docfx build --config docfx.json
+    docfx build
   displayName: 'Build DocFX Documentation'
 
 - task: PublishBuildArtifacts@1
