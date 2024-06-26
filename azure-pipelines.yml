@@ -2,7 +2,7 @@ trigger:
   - main  # Or the branch you want to trigger the build on
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
 
 variables:
   buildConfiguration: 'Release'
@@ -12,16 +12,12 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '8.x'
+    version: '8.x'  # Replace with the specific version you need
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - script: |
-    sudo apt-get update
-    for i in {1..5}; do
-      sudo apt-get install -y mono-complete && break || sleep 15
-    done
-    sudo apt-get install -y docfx
-  displayName: 'Install Mono and DocFX with Retry Logic'
+    choco install docfx --version=$(docfxVersion) -y
+  displayName: 'Install DocFX'
 
 - script: |
     dotnet build --configuration $(buildConfiguration)
