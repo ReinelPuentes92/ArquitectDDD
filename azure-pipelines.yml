@@ -6,7 +6,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  docfxVersion: '2.76.0'  # Specify DocFX version if needed
+  docfxVersion: '2.75.3'  # Specify DocFX version if needed
 
 steps:
 - task: UseDotNet@2
