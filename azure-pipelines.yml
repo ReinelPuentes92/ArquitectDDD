@@ -17,8 +17,8 @@ steps:
 
 - script: |
     sudo apt-get update
-    sudo apt-get install -y mono-complete
-    sudo apt-get install -y docfx
+    sudo apt-get install mono-complete
+    sudo apt-get install docfx
   displayName: 'Install Mono and DocFX'
 
 - script: |
