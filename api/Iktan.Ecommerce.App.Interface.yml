@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.App.Interface
+  commentId: N:Iktan.Ecommerce.App.Interface
+  id: Iktan.Ecommerce.App.Interface
+  children:
+  - Iktan.Ecommerce.App.Interface.ICustomerApplication
+  - Iktan.Ecommerce.App.Interface.IUserApplication
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.App.Interface
+  nameWithType: Iktan.Ecommerce.App.Interface
+  fullName: Iktan.Ecommerce.App.Interface
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.App.Interface
+references:
+- uid: Iktan.Ecommerce.App.Interface.ICustomerApplication
+  commentId: T:Iktan.Ecommerce.App.Interface.ICustomerApplication
+  parent: Iktan.Ecommerce.App.Interface
+  href: Iktan.Ecommerce.App.Interface.ICustomerApplication.html
+  name: ICustomerApplication
+  nameWithType: ICustomerApplication
+  fullName: Iktan.Ecommerce.App.Interface.ICustomerApplication
+- uid: Iktan.Ecommerce.App.Interface.IUserApplication
+  commentId: T:Iktan.Ecommerce.App.Interface.IUserApplication
+  parent: Iktan.Ecommerce.App.Interface
+  href: Iktan.Ecommerce.App.Interface.IUserApplication.html
+  name: IUserApplication
+  nameWithType: IUserApplication
+  fullName: Iktan.Ecommerce.App.Interface.IUserApplication
+- uid: Iktan.Ecommerce.App.Interface
+  commentId: N:Iktan.Ecommerce.App.Interface
+  href: Iktan.html
+  name: Iktan.Ecommerce.App.Interface
+  nameWithType: Iktan.Ecommerce.App.Interface
+  fullName: Iktan.Ecommerce.App.Interface
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.App
+    name: App
+    href: Iktan.Ecommerce.App.html
+  - name: .
+  - uid: Iktan.Ecommerce.App.Interface
+    name: Interface
+    href: Iktan.Ecommerce.App.Interface.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.App
+    name: App
+    href: Iktan.Ecommerce.App.html
+  - name: .
+  - uid: Iktan.Ecommerce.App.Interface
+    name: Interface
+    href: Iktan.Ecommerce.App.Interface.html

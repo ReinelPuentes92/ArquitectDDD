@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Infraestructure.Interface
+  commentId: N:Iktan.Ecommerce.Infraestructure.Interface
+  id: Iktan.Ecommerce.Infraestructure.Interface
+  children:
+  - Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  - Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Infraestructure.Interface
+  nameWithType: Iktan.Ecommerce.Infraestructure.Interface
+  fullName: Iktan.Ecommerce.Infraestructure.Interface
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+references:
+- uid: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  commentId: T:Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+  parent: Iktan.Ecommerce.Infraestructure.Interface
+  href: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.html
+  name: ICustomerRepository
+  nameWithType: ICustomerRepository
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository
+- uid: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+  commentId: T:Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+  parent: Iktan.Ecommerce.Infraestructure.Interface
+  href: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.html
+  name: IUserRepository
+  nameWithType: IUserRepository
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+- uid: Iktan.Ecommerce.Infraestructure.Interface
+  commentId: N:Iktan.Ecommerce.Infraestructure.Interface
+  href: Iktan.html
+  name: Iktan.Ecommerce.Infraestructure.Interface
+  nameWithType: Iktan.Ecommerce.Infraestructure.Interface
+  fullName: Iktan.Ecommerce.Infraestructure.Interface
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure
+    name: Infraestructure
+    href: Iktan.Ecommerce.Infraestructure.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Infraestructure.Interface.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure
+    name: Infraestructure
+    href: Iktan.Ecommerce.Infraestructure.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Infraestructure.Interface.html

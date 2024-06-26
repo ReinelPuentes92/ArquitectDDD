@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Service.WebAPI.Modules.Feature
+  commentId: N:Iktan.Ecommerce.Service.WebAPI.Modules.Feature
+  id: Iktan.Ecommerce.Service.WebAPI.Modules.Feature
+  children:
+  - Iktan.Ecommerce.Service.WebAPI.Modules.Feature.FeatureExtensions
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Service.WebAPI.Modules.Feature
+  nameWithType: Iktan.Ecommerce.Service.WebAPI.Modules.Feature
+  fullName: Iktan.Ecommerce.Service.WebAPI.Modules.Feature
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+references:
+- uid: Iktan.Ecommerce.Service.WebAPI.Modules.Feature.FeatureExtensions
+  commentId: T:Iktan.Ecommerce.Service.WebAPI.Modules.Feature.FeatureExtensions
+  href: Iktan.Ecommerce.Service.WebAPI.Modules.Feature.FeatureExtensions.html
+  name: FeatureExtensions
+  nameWithType: FeatureExtensions
+  fullName: Iktan.Ecommerce.Service.WebAPI.Modules.Feature.FeatureExtensions

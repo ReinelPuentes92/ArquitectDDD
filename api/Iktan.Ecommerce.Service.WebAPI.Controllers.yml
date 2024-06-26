@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Service.WebAPI.Controllers
+  commentId: N:Iktan.Ecommerce.Service.WebAPI.Controllers
+  id: Iktan.Ecommerce.Service.WebAPI.Controllers
+  children:
+  - Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController
+  - Iktan.Ecommerce.Service.WebAPI.Controllers.UserController
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Service.WebAPI.Controllers
+  nameWithType: Iktan.Ecommerce.Service.WebAPI.Controllers
+  fullName: Iktan.Ecommerce.Service.WebAPI.Controllers
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+references:
+- uid: Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController
+  commentId: T:Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController
+  href: Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController.html
+  name: CustomerController
+  nameWithType: CustomerController
+  fullName: Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController
+- uid: Iktan.Ecommerce.Service.WebAPI.Controllers.UserController
+  commentId: T:Iktan.Ecommerce.Service.WebAPI.Controllers.UserController
+  href: Iktan.Ecommerce.Service.WebAPI.Controllers.UserController.html
+  name: UserController
+  nameWithType: UserController
+  fullName: Iktan.Ecommerce.Service.WebAPI.Controllers.UserController

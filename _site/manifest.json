@@ -1,0 +1,628 @@
+{
+  "source_base_path": "E:/Personal/Cursos/2024/C#/Iktan.Eccomerce/Iktan.Ecommerce",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Iktan.Ecommerce/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "Iktan.Ecommerce/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Iktan.Ecommerce/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Iktan.Ecommerce/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Iktan.Ecommerce/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Iktan.Ecommerce/toc.html"
+        },
+        ".json": {
+          "relative_path": "Iktan.Ecommerce/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.DTO.CustomerDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.DTO.CustomerDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.DTO.UserDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.DTO.UserDTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.DTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.DTO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Interface.ICustomerApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Interface.ICustomerApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Interface.IUserApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Interface.IUserApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Main.CustomerApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Main.CustomerApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Main.UserApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Main.UserApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Main.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Test.CustomWebApplicationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Test.CustomWebApplicationFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Test.UserApplicationTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Test.UserApplicationTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Validation.UserDtoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Validation.UserDtoValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.App.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.App.Validation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Core.CustomerDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Core.CustomerDomain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Core.UserDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Core.UserDomain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Entity.Customers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Entity.Customers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Entity.Users.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Entity.Users.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Entity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Interface.ICustomerDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Interface.ICustomerDomain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Interface.IUserDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Interface.IUserDomain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Domain.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Domain.Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Data.ConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Data.ConnectionFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Interface.ICustomerRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Repository.CustomerRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Repository.CustomerRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Repository.UserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Repository.UserRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Infraestructure.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Infraestructure.Repository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Controllers.CustomerController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Controllers.UserController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Controllers.UserController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Helpers.AppSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.AuthenticationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.AuthenticationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Authentication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Feature.FeatureExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Feature.FeatureExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Feature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Feature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Injection.InjectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Injection.InjectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Injection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Injection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.SwaggerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.SwaggerExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Validator.ValidatorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Validator.ValidatorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Service.WebAPI.Modules.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Common.IAppLogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Common.IAppLogger-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Common.IConnectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Common.IConnectionFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Common.Response-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Common.Response-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Logging.LoggerAdapter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Logging.LoggerAdapter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Mapper.MappingsProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Mapper.MappingsProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Iktan.Ecommerce.Transversal.Mapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Iktan.Ecommerce.Transversal.Mapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

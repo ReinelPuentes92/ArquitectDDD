@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger
+  commentId: N:Iktan.Ecommerce.Service.WebAPI.Modules.Swagger
+  id: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger
+  children:
+  - Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.SwaggerExtensions
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger
+  nameWithType: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger
+  fullName: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.Service.WebAPI
+references:
+- uid: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.SwaggerExtensions
+  commentId: T:Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.SwaggerExtensions
+  href: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.SwaggerExtensions.html
+  name: SwaggerExtensions
+  nameWithType: SwaggerExtensions
+  fullName: Iktan.Ecommerce.Service.WebAPI.Modules.Swagger.SwaggerExtensions

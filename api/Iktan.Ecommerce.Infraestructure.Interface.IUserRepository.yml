@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+  commentId: T:Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+  id: IUserRepository
+  parent: Iktan.Ecommerce.Infraestructure.Interface
+  children:
+  - Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IUserRepository
+  nameWithType: IUserRepository
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+  type: Interface
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/IUserRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: IUserRepository
+    path: Iktan.Ecommerce.Infraestructure.Interface/IUserRepository.cs
+    startLine: 9
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: public interface IUserRepository
+    content.vb: Public Interface IUserRepository
+- uid: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate(System.String,System.String)
+  commentId: M:Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate(System.String,System.String)
+  id: Authenticate(System.String,System.String)
+  parent: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository
+  langs:
+  - csharp
+  - vb
+  name: Authenticate(string, string)
+  nameWithType: IUserRepository.Authenticate(string, string)
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate(string, string)
+  type: Method
+  source:
+    remote:
+      path: Iktan.Ecommerce.Infraestructure.Interface/IUserRepository.cs
+      branch: dev
+      repo: https://github.com/ReinelPuentes92/ArquitectDDD.git
+    id: Authenticate
+    path: Iktan.Ecommerce.Infraestructure.Interface/IUserRepository.cs
+    startLine: 11
+  assemblies:
+  - Iktan.Ecommerce.Infraestructure.Interface
+  namespace: Iktan.Ecommerce.Infraestructure.Interface
+  syntax:
+    content: Task<Users> Authenticate(string userName, string password)
+    parameters:
+    - id: userName
+      type: System.String
+    - id: password
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Iktan.Ecommerce.Domain.Entity.Users}
+    content.vb: Function Authenticate(userName As String, password As String) As Task(Of Users)
+  overload: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate*
+  nameWithType.vb: IUserRepository.Authenticate(String, String)
+  fullName.vb: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate(String, String)
+  name.vb: Authenticate(String, String)
+references:
+- uid: Iktan.Ecommerce.Infraestructure.Interface
+  commentId: N:Iktan.Ecommerce.Infraestructure.Interface
+  href: Iktan.html
+  name: Iktan.Ecommerce.Infraestructure.Interface
+  nameWithType: Iktan.Ecommerce.Infraestructure.Interface
+  fullName: Iktan.Ecommerce.Infraestructure.Interface
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure
+    name: Infraestructure
+    href: Iktan.Ecommerce.Infraestructure.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Infraestructure.Interface.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure
+    name: Infraestructure
+    href: Iktan.Ecommerce.Infraestructure.html
+  - name: .
+  - uid: Iktan.Ecommerce.Infraestructure.Interface
+    name: Interface
+    href: Iktan.Ecommerce.Infraestructure.Interface.html
+- uid: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate*
+  commentId: Overload:Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate
+  href: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.html#Iktan_Ecommerce_Infraestructure_Interface_IUserRepository_Authenticate_System_String_System_String_
+  name: Authenticate
+  nameWithType: IUserRepository.Authenticate
+  fullName: Iktan.Ecommerce.Infraestructure.Interface.IUserRepository.Authenticate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{Iktan.Ecommerce.Domain.Entity.Users}
+  commentId: T:System.Threading.Tasks.Task{Iktan.Ecommerce.Domain.Entity.Users}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Users>
+  nameWithType: Task<Users>
+  fullName: System.Threading.Tasks.Task<Iktan.Ecommerce.Domain.Entity.Users>
+  nameWithType.vb: Task(Of Users)
+  fullName.vb: System.Threading.Tasks.Task(Of Iktan.Ecommerce.Domain.Entity.Users)
+  name.vb: Task(Of Users)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Iktan.Ecommerce.Domain.Entity.Users
+    name: Users
+    href: Iktan.Ecommerce.Domain.Entity.Users.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Iktan.Ecommerce.Domain.Entity.Users
+    name: Users
+    href: Iktan.Ecommerce.Domain.Entity.Users.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

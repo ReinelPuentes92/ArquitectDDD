@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Iktan.Ecommerce.App.Validation
+  commentId: N:Iktan.Ecommerce.App.Validation
+  id: Iktan.Ecommerce.App.Validation
+  children:
+  - Iktan.Ecommerce.App.Validation.UserDtoValidator
+  langs:
+  - csharp
+  - vb
+  name: Iktan.Ecommerce.App.Validation
+  nameWithType: Iktan.Ecommerce.App.Validation
+  fullName: Iktan.Ecommerce.App.Validation
+  type: Namespace
+  assemblies:
+  - Iktan.Ecommerce.App.Validation
+references:
+- uid: Iktan.Ecommerce.App.Validation.UserDtoValidator
+  commentId: T:Iktan.Ecommerce.App.Validation.UserDtoValidator
+  parent: Iktan.Ecommerce.App.Validation
+  href: Iktan.Ecommerce.App.Validation.UserDtoValidator.html
+  name: UserDtoValidator
+  nameWithType: UserDtoValidator
+  fullName: Iktan.Ecommerce.App.Validation.UserDtoValidator
+- uid: Iktan.Ecommerce.App.Validation
+  commentId: N:Iktan.Ecommerce.App.Validation
+  href: Iktan.html
+  name: Iktan.Ecommerce.App.Validation
+  nameWithType: Iktan.Ecommerce.App.Validation
+  fullName: Iktan.Ecommerce.App.Validation
+  spec.csharp:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.App
+    name: App
+    href: Iktan.Ecommerce.App.html
+  - name: .
+  - uid: Iktan.Ecommerce.App.Validation
+    name: Validation
+    href: Iktan.Ecommerce.App.Validation.html
+  spec.vb:
+  - uid: Iktan
+    name: Iktan
+    href: Iktan.html
+  - name: .
+  - uid: Iktan.Ecommerce
+    name: Ecommerce
+    href: Iktan.Ecommerce.html
+  - name: .
+  - uid: Iktan.Ecommerce.App
+    name: App
+    href: Iktan.Ecommerce.App.html
+  - name: .
+  - uid: Iktan.Ecommerce.App.Validation
+    name: Validation
+    href: Iktan.Ecommerce.App.Validation.html
