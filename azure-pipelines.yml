@@ -6,7 +6,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  docfxVersion: '2.7.26'  # Specify DocFX version
+  docfxVersion: '2.76.0'  # Specify DocFX version
 
 steps:
 - task: UseDotNet@2
@@ -16,17 +16,9 @@ steps:
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - powershell: |
-    $docfxUrl = "https://github.com/dotnet/docfx/archive/refs/tags/v$(docfxVersion).zip"
-    $docfxZipPath = "$(Build.SourcesDirectory)\docfx-$(docfxVersion).zip"
-    $docfxExtractPath = "$(Build.SourcesDirectory)\docfx"
-    
-    Invoke-WebRequest -Uri $docfxUrl -OutFile $docfxZipPath
-    Expand-Archive -Path $docfxZipPath -DestinationPath $docfxExtractPath
-
-    $docfxPath = Join-Path -Path $docfxExtractPath -ChildPath "docfx"
-    $env:PATH += ";$docfxPath"
-    
-    Write-Output "DocFX downloaded and extracted to $docfxPath"
+    Invoke-WebRequest -Uri "https://github.com/dotnet/docfx/archive/refs/tags/v$(docfxVersion).zip" -OutFile "docfx-$(docfxVersion).zip"
+    Expand-Archive -Path "docfx-$(docfxVersion).zip" -DestinationPath "$(Agent.ToolsDirectory)/docfx"
+    $env:PATH += ";$(Agent.ToolsDirectory)/docfx"
   displayName: 'Download and Install DocFX'
 
 - script: |
@@ -34,7 +26,7 @@ steps:
   displayName: 'Build .NET Project'
 
 - script: |
-    $(Build.SourcesDirectory)\docfx\docfx.exe build --config docfx.json
+    $(Agent.ToolsDirectory)/docfx/docfx.exe build --config docfx.json
   displayName: 'Build DocFX Documentation'
 
 - task: PublishBuildArtifacts@1
