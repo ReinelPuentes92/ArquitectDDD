@@ -26,7 +26,7 @@ steps:
   displayName: 'Build .NET Project'
 
 - script: |
-    $(Agent.ToolsDirectory)/docfx/docfx.exe build
+    docfx build
   displayName: 'Build DocFX Documentation'
 
 - task: PublishBuildArtifacts@1
