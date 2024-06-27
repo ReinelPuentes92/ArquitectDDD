@@ -6,20 +6,20 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  docfxVersion: '2.76.0'  # Specify DocFX version if needed
+  docfxVersion: '2.76.0'  # Specify DocFX version
 
 steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '8.x'  # Replace with the specific version you need
+    version: '8.x.x'  # Replace with the specific version you need
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
-- script: |
-    curl -L -o docfx.zip https://github.com/dotnet/docfx/archive/refs/tags/v(docfxVersion).zip
-    tar -xf docfx.zip -C $(Agent.ToolsDirectory)
-    set PATH=$(Agent.ToolsDirectory)/docfx:%PATH%
-  displayName: 'Install DocFX'
+- powershell: |
+    Invoke-WebRequest -Uri "https://github.com/dotnet/docfx/archive/refs/tags/v$(docfxVersion).zip -OutFile "docfx-$(docfxVersion).zip"
+    Expand-Archive -Path "docfx-$(docfxVersion).zip" -DestinationPath "$(Agent.ToolsDirectory)/docfx"
+    $env:PATH += ";$(Agent.ToolsDirectory)/docfx"
+  displayName: 'Download and Install DocFX'
 
 - script: |
     dotnet build --configuration $(buildConfiguration)
