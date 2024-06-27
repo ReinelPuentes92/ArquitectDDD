@@ -16,9 +16,9 @@ steps:
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - script: |
-    curl -L -o docfx.zip https://github.com/dotnet/docfx/archive/refs/tags/v(docfxVersion).zip
-    tar -xf docfx.zip -C $(Agent.ToolsDirectory)
-    set PATH=$(Agent.ToolsDirectory)/docfx:%PATH%
+    Invoke-WebRequest -Uri "https://github.com/dotnet/docfx/archive/refs/tags/v(docfxVersion).zip" -OutFile "docfx.zip"
+    Expand-Archive -Path "docfx.zip" -DestinationPath "$(Agent.ToolsDirectory)/docfx"
+    $env:PATH += ";$(Agent.ToolsDirectory)/docfx"
   displayName: 'Install DocFX'
 
 - script: |
@@ -26,7 +26,7 @@ steps:
   displayName: 'Build .NET Project'
 
 - script: |
-    docfx build
+    $(Agent.ToolsDirectory)/docfx/docfx.exe build --config docfx.json
   displayName: 'Build DocFX Documentation'
 
 - task: PublishBuildArtifacts@1
