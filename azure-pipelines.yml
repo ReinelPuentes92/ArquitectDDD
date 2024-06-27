@@ -16,8 +16,8 @@ steps:
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - powershell: |
-    $docfxUrl = "https://github.com/dotnet/docfx/releases/download/$(docfxVersion)/docfx.zip"
-    $docfxZipPath = "$(Build.SourcesDirectory)\docfx.zip"
+    $docfxUrl = "https://github.com/dotnet/docfx/archive/refs/tags/v$(docfxVersion).zip"
+    $docfxZipPath = "$(Build.SourcesDirectory)\docfx-$(docfxVersion).zip"
     $docfxExtractPath = "$(Build.SourcesDirectory)\docfx"
     
     Invoke-WebRequest -Uri $docfxUrl -OutFile $docfxZipPath
