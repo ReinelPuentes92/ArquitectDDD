@@ -29,7 +29,7 @@ steps:
   displayName: 'Build .NET Project'
 
 - script: |
-    $(Build.SourcesDirectory)\docfx\docfx.exe build --config docfx.json
+    $(Build.SourcesDirectory)\docfx\docfx.exe build docfx.json
   displayName: 'Build DocFX Documentation'
 
 - task: PublishBuildArtifacts@1
