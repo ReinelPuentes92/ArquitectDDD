@@ -1,0 +1,17 @@
+{
+  "Documentation/getting-started.html": {
+    "href": "Documentation/getting-started.html",
+    "title": "Getting Started | Iktan.Ecommerce",
+    "keywords": "Getting Started"
+  },
+  "Documentation/introduction.html": {
+    "href": "Documentation/introduction.html",
+    "title": "Introduction | Iktan.Ecommerce",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Iktan.Ecommerce",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
