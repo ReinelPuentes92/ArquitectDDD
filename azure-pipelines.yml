@@ -2,11 +2,11 @@ trigger:
   - main  # Or the branch you want to trigger the build on
 
 pool:
-  vmImage: 'windows-2022'
+  vmImage: 'windows-latest'
 
 variables:
   buildConfiguration: 'Release'
-  docfxVersion: '2.76.0'  # Specify DocFX version
+  docfxVersion: 'v2.59.2'  # Specify DocFX version if needed
 
 steps:
 - task: UseDotNet@2
@@ -16,17 +16,20 @@ steps:
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - powershell: |
-    Invoke-WebRequest -Uri "https://github.com/dotnet/docfx/archive/refs/tags/v$(docfxVersion).zip" -OutFile "docfx-$(docfxVersion).zip"
-    Expand-Archive -Path "docfx-$(docfxVersion).zip" -DestinationPath "$(Agent.ToolsDirectory)/docfx"
-    $env:PATH += ";$(Agent.ToolsDirectory)/docfx"
-  displayName: 'Download and Install DocFX'
+    $docfxUrl = "https://github.com/dotnet/docfx/releases/download/$(docfxVersion)/docfx.zip"
+    $docfxZipPath = "$(Build.SourcesDirectory)\docfx.zip"
+    $docfxExtractPath = "$(Build.SourcesDirectory)\docfx"
+
+    Invoke-WebRequest -Uri $docfxUrl -OutFile $docfxZipPath
+    Expand-Archive -Path $docfxZipPath -DestinationPath $docfxExtractPath
+  displayName: 'Download and Extract DocFX'
 
 - script: |
     dotnet build --configuration $(buildConfiguration)
   displayName: 'Build .NET Project'
 
 - script: |
-    $(Agent.ToolsDirectory)/docfx/docfx.exe build --config docfx.json
+    $(Build.SourcesDirectory)\docfx\docfx.exe build --config docfx.json
   displayName: 'Build DocFX Documentation'
 
 - task: PublishBuildArtifacts@1
